@@ -163,17 +163,49 @@ function boot(page){
   window.CL=LANG(); window.C=window.CM[window.CL]||window.CM.sw;
   var done=false;
   function go(){ if(done)return; done=true; try{ if(window.RENDER)window.RENDER(); }catch(e){} try{ applyUI(); }catch(e){} try{ applyBinds(); }catch(e){} }
+  function eatDate(iso){
+    var d=new Date(iso); if(isNaN(d.getTime())) return null;
+    var t=new Date(d.getTime()+3*3600e3), M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], W=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+    return {ts:d.getTime(), time:("0"+t.getUTCHours()).slice(-2)+":"+("0"+t.getUTCMinutes()).slice(-2),
+            date:W[t.getUTCDay()]+" "+("0"+t.getUTCDate()).slice(-2)+" "+M[t.getUTCMonth()]};
+  }
+  function mapFF(arr){
+    var now=Date.now(), out=[];
+    (arr||[]).forEach(function(x){
+      var imp=x.impact;
+      if(imp!=="High"&&imp!=="Medium") return;
+      var e=eatDate(x.date); if(!e) return;
+      if(e.ts<now-6*3600e3) return;
+      out.push({cur:x.country||"", impact:imp==="High"?"high":"normal", time:e.time, date:e.date,
+        title:x.title||"", fc:(x.forecast!==""&&x.forecast!=null)?String(x.forecast):"—",
+        prev:(x.previous!==""&&x.previous!=null)?String(x.previous):"—", ts:e.ts});
+    });
+    return out;
+  }
+  function applyNews(items,src,updated){
+    if(items&&items.length){
+      window.C.news.items=items.slice(0,48); window.C.news.source=src||"ForexFactory"; window.C.news.updated=updated||"";
+      return true;
+    } return false;
+  }
   function newsAuto(){
+    var done=false;
     try{
-      fetch("data/news.json?t="+Date.now())
-        .then(function(r){ return r.ok?r.json():null; })
-        .then(function(nj){
-          if(nj&&nj.items&&nj.items.length){
-            var live=nj.items.slice().sort(function(a,b){ return (a.ts||9e15)-(b.ts||9e15); });
-            window.C.news.items=live; window.C.news.source=nj.source; window.C.news.updated=nj.updated;
-          }
-          go();
-        }).catch(go);
+      /* 1: LIVE — ForexFactory kupitia r.jina.ai (CORS huru, fresh kila ugeni) */
+      fetch("https://r.jina.ai/https://nfs.faireconomy.media/ff_calendar_thisweek.json",{headers:{"x-respond-with":"text"}})
+        .then(function(r){ return r.ok?r.text():null; })
+        .then(function(tx){
+          if(tx){ var arr=null; try{ arr=JSON.parse(tx); }catch(e){}
+            if(arr&&arr.length){ done=applyNews(mapFF(arr),"ForexFactory (live)",new Date().toISOString().slice(0,16).replace("T"," ")+" UTC"); } }
+          if(done){ go(); return; }
+          /* 2: cache ya data/news.json */
+          return fetch("data/news.json?t="+Date.now())
+            .then(function(r){ return r.ok?r.json():null; })
+            .then(function(nj){ if(nj&&nj.items&&nj.items.length) applyNews(nj.items,nj.source,nj.updated); })
+            .catch(function(){});
+        })
+        .catch(function(){ try{ fetch("data/news.json?t="+Date.now()).then(function(r){ return r.ok?r.json():null; }).then(function(nj){ if(nj&&nj.items) applyNews(nj.items,nj.source,nj.updated); }).catch(function(){}); }catch(e){} })
+        .then(function(){ go(); });
     }catch(e){ go(); }
   }
   try{
