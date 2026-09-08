@@ -252,7 +252,20 @@
       "mission": "Dhamira yetu",
       "pro_note": "Malipo ya simu — hakuna kadi",
       "pro_note2": "App ya simu inatoa auto-signals bure — Pro inaongeza mwalimu",
-      "src_note": "Chanzo cha data: investing.com → ForexFactory → TradingView (fallback chain). Muda wote ni EAT (Dar es Salaam). App ya simu inaonyesha kalenda hii live — pamoja na auto-pause kabla ya habari kubwa."
+      "src_note": "Chanzo cha data: investing.com → ForexFactory → TradingView (fallback chain). Muda wote ni EAT (Dar es Salaam). App ya simu inaonyesha kalenda hii live — pamoja na auto-pause kabla ya habari kubwa.",
+      "f_quick": "VIUNGO VYA HARAKA",
+      "f_useful": "VITENGO MUHIMU",
+      "f_contact": "MAWASILIANO",
+      "badge_high": "KUBWA",
+      "badge_normal": "KAWAIDA",
+      "fc_lbl": "makadirio",
+      "prev_lbl": "yaliyopita",
+      "apk_btn": "⬇ PAKUA APK — BURE",
+      "gallery_h": "📸 Media Zetu",
+      "f_mentor_pro": "Mentorship Pro (Malipo)",
+      "f_ana_pro": "Analysis Pro (Malipo)",
+      "f_cal": "Kalenda ya News",
+      "doc_title": "PipMaster — Shule, Analysis & Signals za Forex"
     }
   },
   "en": {
@@ -503,7 +516,20 @@
       "mission": "Our mission",
       "pro_note": "Mobile money — no card",
       "pro_note2": "The mobile app gives auto-signals free — Pro adds the mentor",
-      "src_note": "Data source: investing.com → ForexFactory → TradingView (fallback chain). All times are EAT (Dar es Salaam). The mobile app shows this calendar live — with auto-pause before major news."
+      "src_note": "Data source: investing.com → ForexFactory → TradingView (fallback chain). All times are EAT (Dar es Salaam). The mobile app shows this calendar live — with auto-pause before major news.",
+      "f_quick": "QUICK LINKS",
+      "f_useful": "USEFUL LINKS",
+      "f_contact": "CONTACT",
+      "badge_high": "HIGH",
+      "badge_normal": "NORMAL",
+      "fc_lbl": "forecast",
+      "prev_lbl": "previous",
+      "apk_btn": "⬇ GET APK — FREE",
+      "gallery_h": "📸 Our Media",
+      "f_mentor_pro": "Pro Mentorship",
+      "f_ana_pro": "Pro Analysis",
+      "f_cal": "News Calendar",
+      "doc_title": "PipMaster — Forex School, Analysis & Signals"
     }
   }
 }
