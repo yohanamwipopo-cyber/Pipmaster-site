@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yohanamwipopo-cyber.github.io/Pipmaster-site/sitemap.xml
