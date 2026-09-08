@@ -11,107 +11,118 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://yohanamwipopo-cyber.github.io/Pipmaster-site/">
 <link rel="canonical" href="https://yohanamwipopo-cyber.github.io/Pipmaster-site/">
-<style>:root{--navy:#0d2440;--navy2:#123a63;--blue:#1f6feb;--blue2:#3b82f6;--grn:#00a97f;--red:#e5484d;--ink:#132133;--mut:#5c6b80;--bg:#f4f7fb;--card:#fff;--line:#e2e8f2;--chip:#eef4fb}
+<style>:root{--navy:#0E2A5C;--navy2:#0B2249;--grn:#1FA85C;--grn-d:#178C4B;--blue:#1f6feb;--red:#e5484d;--ink:#132133;--mut:#5c6b80;--bg:#f5f7fa;--line:#e3e8f0;--chip:#eef4fb}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
-.wrap{max-width:1060px;margin:0 auto;padding:0 16px}
-a{color:var(--blue);text-decoration:none}
-.nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:16px;padding:12px 18px;background:var(--navy);color:#fff}
-.logo{font-weight:900;font-size:15px;letter-spacing:-.3px;color:#fff}
-.logo b{color:#7fb4ff}
-.nav .links{display:flex;gap:14px;font-size:11px;font-weight:700;color:#b9c7dc;flex-wrap:wrap}
-.nav .links a{color:#b9c7dc}
-.nav .links a.on{color:#fff;border-bottom:2px solid var(--blue2);padding-bottom:2px}
-.nav .cta{margin-left:auto;background:var(--blue);color:#fff;border-radius:9px;padding:8px 14px;font-size:11px;font-weight:800;white-space:nowrap}
-.langbtn{background:#1d3c66;border:1px solid #2f517f;color:#cfe0f5;border-radius:999px;padding:6px 12px;font-size:10.5px;font-weight:900;cursor:pointer}
-.hero{display:flex;gap:22px;padding:34px 0 26px;background:linear-gradient(180deg,#fff,#f2f7ff);border-bottom:1px solid var(--line)}
-.kicker{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--blue);background:var(--chip);border-radius:999px;padding:5px 11px;margin-bottom:12px}
-.hero h1{font-size:24px;line-height:1.28;letter-spacing:-.6px}
-.hero h1 em{font-style:normal;color:var(--blue)}
-.hero p.sub{font-size:12.5px;color:var(--mut);margin:10px 0 16px;line-height:1.75;max-width:520px}
-.btn{display:inline-block;border-radius:10px;padding:11px 18px;font-size:12.5px;font-weight:800;border:0;cursor:pointer}
-.btn-blue{background:var(--blue);color:#fff}
-.btn-line{border:1.6px solid var(--navy2);color:var(--navy2);background:#fff}
-.btn-teal{background:var(--grn);color:#fff}
-.mini{background:#fff;border:1px solid var(--line);border-radius:11px;padding:10px 12px;font-size:10.5px;color:var(--mut);display:flex;align-items:center;gap:9px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+a{color:var(--grn-d);text-decoration:none}
+.nav{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:14px;padding:12px 16px}
+.logo{font-weight:900;font-size:18px;color:var(--navy);letter-spacing:-.4px}
+.logo b{color:var(--grn)}
+.nav .links{margin-left:auto;display:flex;gap:16px;font-size:12px;font-weight:700;color:var(--mut)}
+.nav .links a{color:var(--mut)}
+.nav .links a.on{color:var(--grn-d)}
+.langbtn{background:#fff;border:2px solid var(--navy);color:var(--navy);border-radius:999px;padding:5px 13px;font-size:10.5px;font-weight:900;cursor:pointer}
+.nav .cta{background:var(--grn);color:#fff;border-radius:999px;padding:9px 16px;font-size:11.5px;font-weight:800;white-space:nowrap}
+.burger{display:none;margin-left:4px;background:#fff;border:1.5px solid var(--line);border-radius:9px;font-size:16px;padding:5px 11px;cursor:pointer}
+.drawer{display:none;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 14px}
+.drawer.open{display:block}
+.drawer a{display:block;padding:9px 2px;font-size:13.5px;font-weight:700;color:var(--navy);border-bottom:1px dashed var(--line)}
+.hero{background:linear-gradient(180deg,#0E2A5C,#0B2249);color:#fff;padding:56px 0 50px}
+.hero .wrap{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start}
+.hero-l{flex:1.4;min-width:280px}
+.kicker{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1.4px;color:#9fe3c0;background:rgba(31,168,92,.16);border-radius:999px;padding:6px 13px;margin-bottom:16px}
+.hero h1{font-size:clamp(30px,6.5vw,44px);line-height:1.12;font-weight:800;letter-spacing:-1.2px;max-width:720px}
+.hero p.sub{color:#c9d6ec;font-size:15px;max-width:560px;margin:14px 0 26px;line-height:1.75}
+.btn{display:inline-block;border-radius:999px;padding:13px 24px;font-size:13px;font-weight:800;border:0;cursor:pointer}
+.btn-green{background:var(--grn);color:#fff}
+.btn-ghostw{border:2px solid rgba(255,255,255,.85);color:#fff;background:transparent;margin-left:8px}
+.btn-soft{background:var(--chip);color:var(--navy)}
+.btn-blue{background:var(--grn);color:#fff}
+.hero-r{flex:1;min-width:260px;display:flex;flex-direction:column;gap:9px}
+.mini{background:#fff;border:0;border-radius:12px;padding:11px 13px;font-size:10.5px;color:var(--mut);display:flex;align-items:center;gap:9px;box-shadow:0 6px 18px rgba(4,16,38,.25)}
 .mini .ic{width:30px;height:30px;border-radius:9px;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:14px;flex:0 0 auto}
 .mini b{color:var(--ink);font-size:11px;display:block}
 .mini .pill{margin-left:auto;font-size:9px;font-weight:900;border-radius:6px;padding:3px 7px;flex:0 0 auto}
-.pill.free{background:#e6f6f0;color:var(--grn)}
+.pill.free{background:#e6f6f0;color:var(--grn-d)}
 .pill.pro{background:#e8f0fe;color:var(--blue)}
-.trust{display:flex;gap:18px;padding:12px 0;background:var(--navy2);color:#cddcf2;font-size:10.5px;flex-wrap:wrap}
-.trust b{color:#fff}
-.sect{padding:26px 0;border-bottom:1px solid var(--line)}
+.trust{background:#fff;border-bottom:1px solid var(--line);padding:13px 0;color:var(--navy2);font-size:11px}
+.trust .wrap{display:flex;gap:20px;flex-wrap:wrap}
+.trust b{color:var(--grn-d);font-weight:900}
+.sect{padding:32px 0;border-bottom:1px solid var(--line)}
 .sect-head{display:flex;align-items:baseline;gap:10px;margin-bottom:6px;flex-wrap:wrap}
-.sect-head h2{font-size:18px;letter-spacing:-.4px}
-.sect-head span{font-size:10px;font-weight:800;color:var(--grn);background:#e6f6f0;border-radius:999px;padding:3px 9px}
+.sect-head h2{font-size:21px;letter-spacing:-.5px;color:var(--navy)}
+.sect-head span{font-size:10px;font-weight:800;color:var(--grn-d);background:#e6f6f0;border-radius:999px;padding:3px 9px}
 .sect-head span.pd{color:var(--blue);background:#e8f0fe}
-.desc{font-size:12px;color:var(--mut);line-height:1.7;margin-bottom:14px;max-width:680px}
+.desc{font-size:12.5px;color:var(--mut);line-height:1.7;margin-bottom:16px;max-width:680px}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
-.card h4{font-size:13px;margin-bottom:5px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px}
+.card h4{font-size:13.5px;margin-bottom:5px;color:var(--navy)}
 .card p{font-size:11.5px;color:var(--mut);line-height:1.65}
 .top{display:flex;align-items:center;gap:7px;margin-bottom:7px}
-.flag{font-size:10.5px;font-weight:900;color:var(--navy2)}
+.flag{font-size:10.5px;font-weight:900;color:var(--navy)}
 .imp{font-size:8.5px;font-weight:900;border-radius:5px;padding:2.5px 7px}
 .imp.hi{background:#fdeaea;color:var(--red)}
 .imp.no{background:#fff4e0;color:#b96b00}
-.t{font-size:12px;font-weight:800;line-height:1.4}
+.t{font-size:12.5px;font-weight:800;line-height:1.4}
 .fc{font-family:ui-monospace,Consolas,monospace;font-size:10px;color:var(--mut);margin-top:6px}
 .time{margin-left:auto;font-size:9.5px;color:var(--mut)}
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:13px}
-.plan{border:1px solid var(--line);border-radius:14px;padding:18px;background:#fff}
-.plan.pro{border-color:#bcd2f7;background:linear-gradient(180deg,#f6faff,#fff)}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.plan{border:1px solid var(--line);border-radius:14px;padding:19px;background:#fff}
+.plan.pro{border:2px solid var(--grn)}
 .badge{font-size:9.5px;font-weight:900;border-radius:7px;padding:4px 10px;display:inline-block;margin-bottom:9px}
-.badge.f{background:#e6f6f0;color:var(--grn)}
+.badge.f{background:#e6f6f0;color:var(--grn-d)}
 .badge.p{background:var(--blue);color:#fff}
-.plan h3{font-size:15px;letter-spacing:-.3px;margin-bottom:3px}
+.plan h3{font-size:15.5px;letter-spacing:-.3px;margin-bottom:3px;color:var(--navy)}
 .plan .pr{font-size:11px;color:var(--mut);margin-bottom:10px}
 .plan .pr b{color:var(--ink)}
 .plan ul{list-style:none;margin-bottom:13px}
 .plan li{font-size:11.5px;color:var(--mut);line-height:1.6;padding:3.5px 0 3.5px 20px;position:relative}
 .plan li:before{content:"✓";position:absolute;left:0;color:var(--grn);font-weight:900}
-.plan.pro li:before{color:var(--blue)}
 .plan .btn{width:100%;text-align:center}
-.btn-soft{background:var(--chip);color:var(--navy2)}
 .note{font-size:9.5px;color:var(--mut);margin-top:8px;text-align:center}
-.lesson{display:flex;gap:11px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:9px}
-.lesson .no{width:26px;height:26px;border-radius:8px;background:var(--chip);color:var(--navy2);font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
-.lesson b{font-size:12px;display:block;margin-bottom:2px}
+.lesson{display:flex;gap:11px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin-bottom:9px}
+.lesson .no{width:26px;height:26px;border-radius:8px;background:var(--navy);color:#fff;font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.lesson b{font-size:12.5px;display:block;margin-bottom:2px;color:var(--navy)}
 .lesson p{font-size:11px;color:var(--mut);line-height:1.6}
-.post{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
-.post .date{font-size:9px;font-weight:900;letter-spacing:1px;color:var(--grn)}
-.post h4{font-size:13px;margin:3px 0 6px}
+.post{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px;margin-bottom:10px}
+.post .date{font-size:9px;font-weight:900;letter-spacing:1px;color:var(--grn-d)}
+.post h4{font-size:13.5px;margin:3px 0 6px;color:var(--navy)}
 .post p{font-size:11.5px;color:var(--mut);line-height:1.7}
-.band{display:flex;align-items:center;gap:16px;background:var(--navy);color:#fff;border-radius:14px;padding:20px;margin:22px 0}
-.band h3{font-size:16px;margin-bottom:3px}
-.band p{flex:1;font-size:12px;color:#c9d8ec;line-height:1.65}
-.book{display:flex;gap:14px;align-items:center;background:linear-gradient(90deg,#0d2440,#123a63);border-radius:14px;padding:16px;color:#fff;margin-top:13px}
+.band{display:flex;align-items:center;gap:16px;background:var(--navy);color:#fff;border-radius:14px;padding:22px;margin:24px 0}
+.band h3{font-size:17px;margin-bottom:3px}
+.band p{flex:1;font-size:12px;color:#c9d6ec;line-height:1.65}
+.book{display:flex;gap:14px;align-items:center;background:var(--navy);border-radius:14px;padding:17px;color:#fff;margin-top:14px}
 .book .em{font-size:26px}
-.book p{font-size:11px;color:#c9d8ec;line-height:1.6;flex:1}
-.book b{color:#fff;font-size:12px;display:block;margin-bottom:2px}
+.book p{font-size:11.5px;color:#c9d6ec;line-height:1.65;flex:1}
+.book b{color:#fff;font-size:12.5px;display:block;margin-bottom:2px}
 .step{display:flex;gap:11px;align-items:flex-start;margin-bottom:12px}
-.step i{font-style:normal;width:24px;height:24px;border-radius:50%;background:var(--blue);color:#fff;font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
-.step p{font-size:12px;color:var(--mut);line-height:1.65}
+.step i{font-style:normal;width:24px;height:24px;border-radius:50%;background:var(--grn);color:#fff;font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.step p{font-size:12.5px;color:var(--mut);line-height:1.65}
 .step p b{color:var(--ink)}
 .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.contact{text-align:center;padding:16px 12px}
+.contact{text-align:center;padding:18px 12px}
 .contact .em{font-size:22px;margin-bottom:6px}
-.contact b{display:block;font-size:12px;margin-bottom:3px}
+.contact b{display:block;font-size:12.5px;margin-bottom:3px;color:var(--navy)}
 .contact span{font-size:11px;color:var(--mut)}
-.foot{display:flex;gap:16px;padding:16px 0;background:#081a30;color:#7e93b3;font-size:9.5px;flex-wrap:wrap;margin-top:26px}
-.foot .wrap{display:flex;gap:16px;flex-wrap:wrap;width:100%}
-.pagemark{padding:26px 0 6px}
-.pagemark h1{font-size:22px;letter-spacing:-.5px}
-.pagemark p{font-size:12px;color:var(--mut);margin-top:4px;max-width:680px}
-h2.subh{font-size:16px;margin:22px 0 12px}
-@media(max-width:760px){.hero{flex-direction:column}.grid3,.grid4,.duo,.contact-grid{grid-template-columns:1fr}.nav .links{display:none}.hero-r{display:grid;grid-template-columns:1fr}}
+.pagemark{background:linear-gradient(180deg,#0E2A5C,#0B2249);color:#fff;padding:38px 0 30px}
+.pagemark h1{font-size:clamp(26px,6vw,34px);letter-spacing:-.8px;line-height:1.15}
+.pagemark p{font-size:13px;color:#c9d6ec;margin-top:6px;max-width:700px}
+h2.subh{font-size:18px;margin:24px 0 12px;color:var(--navy)}
+.foot{background:#fff;border-top:1px solid var(--line);margin-top:34px}
+.fcols{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;padding:32px 0 20px}
+.fcol h4{font-size:13px;font-weight:900;letter-spacing:.6px;color:var(--ink);text-transform:uppercase;margin-bottom:12px}
+.fcol a,.fcol .fl{display:block;font-size:13px;color:var(--mut);padding:5px 0}
+.fcol a:before{content:"› ";color:var(--grn);font-weight:900}
+.fbase{border-top:1px solid var(--line);padding:15px 0;color:#8593a8;font-size:10.5px}
+.fbase .wrap{display:flex;gap:14px;flex-wrap:wrap}
+@media(max-width:760px){.hero .wrap{flex-direction:column}.grid3,.grid4,.duo,.contact-grid,.fcols{grid-template-columns:1fr}.nav .links,.nav .cta{display:none}.burger{display:inline-flex}.hero-r{display:grid;grid-template-columns:1fr}.btn-ghostw{margin-left:0;margin-top:8px}}
 </style>
 </head>
 <body>
-<nav class="nav"><div class="logo"><b>Pip</b>Master</div><div class="links"><a href="index.html" class="" data-nav="home">HOME</a><a href="news.html" class="" data-nav="news">NEWS</a><a href="mentorship.html" class="" data-nav="mentorship">MENTORSHIP</a><a href="analysis.html" class="" data-nav="analysis">ANALYSIS</a><a href="tools.html" class="" data-nav="tools">TOOLS</a><a href="about.html" class="" data-nav="about">ABOUT</a></div><button class="langbtn" id="langbtn" data-langbtn>EN</button><a class="cta" href="download.html" data-nav="cta">⬇ PAKUA APP</a></nav>
+<nav class="nav"><a class="logo" href="index.html">Pip<b>Master</b></a><div class="links"><a href="index.html" class="" data-nav="home">HOME</a><a href="news.html" class="" data-nav="news">NEWS</a><a href="mentorship.html" class="" data-nav="mentorship">MENTORSHIP</a><a href="analysis.html" class="" data-nav="analysis">ANALYSIS</a><a href="tools.html" class="" data-nav="tools">TOOLS</a><a href="about.html" class="" data-nav="about">ABOUT</a></div><button class="langbtn" id="langbtn" data-langbtn>EN</button><a class="cta" href="download.html" data-nav="cta">⬇ PAKUA APP</a><button class="burger" aria-label="Menu" onclick="var d=document.getElementById('drawer');d.classList.toggle('open')">☰</button></nav><div class="drawer" id="drawer"><a href="index.html" data-nav="home">HOME</a><a href="news.html" data-nav="news">NEWS</a><a href="mentorship.html" data-nav="mentorship">MENTORSHIP</a><a href="analysis.html" data-nav="analysis">ANALYSIS</a><a href="tools.html" data-nav="tools">TOOLS</a><a href="about.html" data-nav="about">ABOUT</a><a href="download.html" data-nav="cta" style="color:var(--grn-d)">⬇ PAKUA APP</a></div>
 <header class="hero"><div class="wrap" style="display:flex;gap:22px;flex-wrap:wrap">
   <div style="flex:1.35;min-width:280px">
     <span class="kicker" data-bind="hero.kicker"></span>
@@ -164,7 +175,7 @@ window.RENDER=function(){
   var bc=document.getElementById("band-cta"); if(bc)bc.setAttribute("href",C.download.url||"download.html");
 };
 </script>
-<footer class="foot"><div class="wrap"><span>© <b data-bind="site.name"></b></span><span data-bind="site.disclaimer"></span><span>WhatsApp/Simu: <b data-bind="site.phone"></b></span><span>M-Pesa • TigoPesa • Airtel Money</span></div></footer>
+<footer class="foot"><div class="wrap fcols"><div class="fcol"><h4 data-bind="ui.f_quick"></h4><a href="index.html" data-nav="home">HOME</a><a href="news.html" data-nav="news">NEWS</a><a href="mentorship.html" data-nav="mentorship">MENTORSHIP</a><a href="analysis.html" data-nav="analysis">ANALYSIS</a><a href="tools.html" data-nav="tools">TOOLS</a><a href="about.html" data-nav="about">ABOUT</a></div><div class="fcol"><h4 data-bind="ui.f_useful"></h4><a href="mentorship.html">Mentorship Pro</a><a href="analysis.html">Analysis Pro</a><a href="download.html" data-nav="cta">⬇ PAKUA APP</a><a href="news.html">Kalenda ya News</a><a id="foot-wa" href="https://wa.me/255617804762">WhatsApp</a></div><div class="fcol"><h4 data-bind="ui.f_contact"></h4><a id="foot-tel" href="tel:+255617804762"><span data-bind="site.phone"></span></a><span class="fl">M-Pesa: <span data-bind="site.payments.mpesa"></span></span><span class="fl">TigoPesa: <span data-bind="site.payments.tigo"></span></span><span class="fl">Airtel: <span data-bind="site.payments.airtel"></span></span></div></div><div class="fbase"><div class="wrap"><span>© <b data-bind="site.name"></b></span><span data-bind="site.disclaimer"></span></div></div></footer>
 
 <script>
 window.CM={"meta": {"updated": "2026-09-08", "by": "PipMaster generator", "default_lang": "sw"}, "sw": {"site": {"name": "PipMaster", "tagline": "Forex — Elimu • Analysis • Signals", "phone": "+255 617 804 762", "whatsapp": "+255 617 804 762", "payments": {"mpesa": "+255 617 804 762", "tigo": "+255 617 804 762", "airtel": "+255 617 804 762"}, "disclaimer": "PipMaster ni jukwaa la elimu na mazoezi (paper). Si ushauri wa kifedha — forex ina hatari kubwa ya hasara. Trade kwa busara."}, "hero": {"kicker": "FOREX — ELIMU • ANALYSIS • SIGNALS", "title": "Jifunze forex, pata analysis ya soko, na trade kwa mpango — kwa Kiswahili.", "sub": "PipMaster inakupa habari za soko (EAT), mentorship kutoka kwenye vitabu 10,000+ vya forex, na analysis za kila siku — bure. Wale wanaotaka zaidi wana mpango wa Pro.", "cta1": "⬇ PAKUA APP (APK) — BURE", "cta2": "ANZA MENTORSHIP BURE →", "trust": ["Engines 5 za signals (APA, UGAIGAI, Vitabu 17,568, A+++ , GOLD COMBO)", "Data ya moja kwa moja: Yahoo / Binance / OKX", "Bure kuanzia — hakuna kadi", "Kiswahili + English"]}, "news": {"title": "News za Soko (EAT)", "desc": "Habari zenye athari (normal + high) zenye forecast na previous — USD ikipaumbele. Chanzo: investing.com → ForexFactory → TradingView.", "items": [{"cur": "USD", "impact": "high", "time": "14:30", "title": "Non-Farm Payrolls", "fc": "0.2%", "prev": "0.3%"}, {"cur": "EUR", "impact": "normal", "time": "16:00", "title": "CPI m/m", "fc": "0.3%", "prev": "0.2%"}, {"cur": "GBP", "impact": "high", "time": "11:00", "title": "BoE Rate Decision", "fc": "5.25%", "prev": "5.25%"}, {"cur": "USD", "impact": "normal", "time": "16:30", "title": "Crude Oil Inventories", "fc": "-1.1M", "prev": "0.4M"}, {"cur": "JPY", "impact": "normal", "time": "04:00", "title": "BoJ Policy Rate", "fc": "0.10%", "prev": "0.10%"}, {"cur": "XAU", "impact": "high", "time": "20:00", "title": "FOMC Member Speech", "fc": "—", "prev": "—"}]}, "mentorship": {"free": {"title": "Shule ya Vitabu (10,000+)", "price": "TZS 0 — kwa kila mtu, milele", "desc": "Masomo yote yamejengwa juu ya maktaba ya vitabu 10,000+ vya forex (Price Action, Liquidity, na strategies 17,568 zinazoendeshwa ndani ya app yetu). Unajifunza kanuni zinazotumika — si nadharia tupu.", "lessons": [{"t": "1. Msingi wa Forex", "d": "Pips, lots, leverage, currency pairs — msingi wote kwa Kiswahili rahisi."}, {"t": "2. Brokers & MT5", "d": "Kuchagua broker, kufungua demo, kutumia MetaTrader 5."}, {"t": "3. Miallemo (Moving Averages)", "d": "EMA 20/50/200 — jinsi ya kusoma mwelekeo."}, {"t": "4. Support & Resistance", "d": "Levels, round numbers, na zones za bei."}, {"t": "5. Candles & Patterns", "d": "Engulfing, Pin Bar, Rejection — trigger za kuaminika."}, {"t": "6. Price Action & Structure", "d": "BOS, CHoCH, swing highs/lows — msoma wa chai halisi."}, {"t": "7. Liquidity & Smart Money", "d": "Sweeps, order blocks, FVG — siri za wadau wakubwa."}, {"t": "8. Risk Management", "d": "Kanuni ya 0.5%, R-multiple, journal — kwanza hifadhi mtaji."}], "note": "✓ Masomo mapya yanaongezwa kila wiki — kutoka vitabu halisi"}, "pro": {"title": "Mentorship ya Karibu (Pro)", "price": "Kuanzia $3/wiki (≈ TZS 7,500) — M-Pesa / TigoPesa / Airtel Money", "desc": "Kwa wanaotaka mwalimu wa karibu: live sessions, mpango wa kibinafsi, na ukaguzi wa trades zako — kila siku.", "points": ["Live sessions na mentor (WhatsApp group)", "Mpango wa trading wa kibinafsi + ukaguzi wa trades zako", "Maswali ya moja kwa moja — kila siku", "Vipindi vya maalumu: Gold, Smart Money, News trading"]}}, "analysis": {"free": {"title": "Market Outlook — kila siku", "price": "TZS 0", "desc": "Uchambuzi wa siku: mwelekeo wa Gold/majors/crypto, sessions (Asia → London → NY), na news zenye athari — kwa Kiswahili rahisi.", "posts": [{"date": "LEO", "title": "Gold (XAUUSD): Bullish hadi 2405", "body": "Bei juu ya EMA20/50 (H1). London sweep ya 2375 ilithibitisha demand. Tunatarajia continuation hadi round 2405; chini ya 2372 outlook inageuka neutral."}, {"date": "JANA", "title": "EURUSD: Range 1.0800–1.0860", "body": "Hakuna breakout — CPI ya EUR ilibana haiba. Range trading hadi news za USD; breakout wa 1.0860 ufungua 1.0900."}]}, "pro": {"title": "Setups Kamili + Analysis Yako (Pro)", "price": "Ndani ya Pro ($3/wiki) — au pakua app (bure) kwa auto-signals", "desc": "Setups zenye Entry/SL/TP kamili zenye sababu (why), na analysis ya pair unazohitaji kwa ombi lako.", "points": ["Signals zenye Entry / SL / TP kamili (APA, A+++ , GOLD COMBO)", "Tuma ombi la pair yako — upate analysis yake", "Sababu za kila setup — unajifunza unapo-follow", "Priority kwenye maswali ya mentorship"]}}, "tools": [{"ic": "⚡", "t": "Scan All Strategies", "d": "Batani moja inapima engines 5: APA, UGAIGAI, Vitabu 17,568, A+++ na GOLD COMBO."}, {"ic": "📐", "t": "Lot Size Calculator", "d": "Risk % na SL pips → lot size sahihi kwa account yako."}, {"ic": "🗓", "t": "Kalenda ya News", "d": "Impact news za wiki na forecast/previous — EAT."}, {"ic": "📓", "t": "Trade Journal", "d": "Auto-follow 0.5% risk — kila signal 80%+ inajikinga journal."}], "download": {"title": "Pakua PipMaster — App ya Bure", "sub": "Signals (auto-follow 0.5% risk), News za EAT, Shule ya Vitabu, Journal — yote kwenye simu yako.", "meta": "Android 5.0+ • 538KB • hakuna kadi, hakuna malipo", "url": "https://yohanamwipopo-cyber.github.io/Pipmaster-site/apk/PipMentor-v4.0.3.apk", "steps": ["Bonyeza PAKUA — APK itachukuliwa (ruhusu 'Install unknown apps' kama ikionekana).", "Fungua faili uliyopakua → Install.", "Funga app zozote za zamani za PipMaster kwanza.", "Fungua app → bonyeza SCAN ALL STRATEGIES → anza."]}, "about": {"text": "PipMaster inaleta elimu halisi ya forex kwa watu wa Afrika Mashariki: shule ya vitabu 10,000+, analysis ya kila siku, na app ya signals ya soko halisi — yote ikiwa na njia ya malipo ya simu.", "mission": "Elimu ya forex ya bei halisi, kwa Kiswahili, bure kwa kila mtu."}, "ui": {"lang_other": "EN", "nav": {"home": "HOME", "news": "HABARI", "mentorship": "MENTORSHIP", "analysis": "ANALYSIS", "tools": "ZANA", "about": "KUHUSU", "cta": "⬇ PAKUA APP"}, "b_free": "FREE", "b_pro": "PAID", "badge_free": "FREE — MILELE", "badge_pro": "PAID — PRO", "plan_free": "ANZA SASA", "plan_pro": "PATA PRO", "mini_news": "News za EAT", "mini_news_d": "Impact + forecast/previous", "mini_school": "Shule ya Vitabu", "mini_school_d": "Masomo kutoka vitabu 10,000+", "mini_pro": "Mentorship Pro", "mini_pro_d": "Live + mbinu ya kibinafsi", "mini_ana": "Analysis ya soko", "mini_ana_d": "Outlook ya kila siku", "mini_sig": "Signals kamili (SL/TP)", "mini_sig_d": "APA • A+++ • GOLD COMBO", "sec_mentor": "🎓 Mentorship", "sec_analysis": "📊 Analysis ya Soko", "see_all": "Angalia kalenda kamili ya wiki →", "book_why": "Kwa nini vitabu 10,000+? Kila somo la bure linatokana na kanuni za vitabu halisi vya forex vinavyoendeshwa ndani ya app yetu (engine ya strategies 17,568). Unajifunza kanuni zinazotumika — si nadharia tupu.", "h1_news": "📰 Habari za Soko (EAT)", "h1_mentorship": "🎓 Mentorship", "sub_mentorship": "Njia mbili za kujifunza: bure milele kwa kila mtu — jengwa juu ya maktaba ya vitabu 10,000+ — na Pro kwa wanaotaka mwalimu wa karibu.", "h_lessons": "Masomo (Shule ya Vitabu)", "h1_analysis": "📊 Uchambuzi wa Soko", "h_posts": "Outlook ya karibuni", "h1_tools": "🧰 Zana za Forex", "sub_tools": "Zote bure — zipo ndani ya app ya PipMaster.", "h1_download": "⬇ Pakua App", "h_steps": "Jinsi ya kusakisha", "note_security": "Usalama: APK hii imesainiwa na developer wa PipMaster. Hakuna ruhusa za kigeni, hakuna kuchukua data yako, na hakuna malipo yoyote ndani ya app.", "h1_about": "Kuhusu & Mawasiliano", "pay_pro": "Malipo (Pro)", "mission": "Dhamira yetu", "pro_note": "Malipo ya simu — hakuna kadi", "pro_note2": "App ya simu inatoa auto-signals bure — Pro inaongeza mwalimu", "src_note": "Chanzo cha data: investing.com → ForexFactory → TradingView (fallback chain). Muda wote ni EAT (Dar es Salaam). App ya simu inaonyesha kalenda hii live — pamoja na auto-pause kabla ya habari kubwa."}}, "en": {"site": {"name": "PipMaster", "tagline": "Forex — Education • Analysis • Signals", "phone": "+255 617 804 762", "whatsapp": "+255 617 804 762", "payments": {"mpesa": "+255 617 804 762", "tigo": "+255 617 804 762", "airtel": "+255 617 804 762"}, "disclaimer": "PipMaster is an education and practice (paper) platform. Not financial advice — forex carries a high risk of loss. Trade responsibly."}, "hero": {"kicker": "FOREX — EDUCATION • ANALYSIS • SIGNALS", "title": "Learn forex, get daily market analysis, and trade with a plan — in Swahili & English.", "sub": "PipMaster gives you market news (EAT), mentorship built on 10,000+ forex books, and daily analysis — free. Want more? Go Pro.", "cta1": "⬇ DOWNLOAD APP (APK) — FREE", "cta2": "START FREE MENTORSHIP →", "trust": ["5 signal engines (APA, UGAIGAI, 17,568 Books, A+++ , GOLD COMBO)", "Live data: Yahoo / Binance / OKX", "Free to start — no card needed", "Swahili + English"]}, "news": {"title": "Market News (EAT)", "desc": "High & normal impact events with forecast and previous — USD prioritized. Sources: investing.com → ForexFactory → TradingView.", "items": [{"cur": "USD", "impact": "high", "time": "14:30", "title": "Non-Farm Payrolls", "fc": "0.2%", "prev": "0.3%"}, {"cur": "EUR", "impact": "normal", "time": "16:00", "title": "CPI m/m", "fc": "0.3%", "prev": "0.2%"}, {"cur": "GBP", "impact": "high", "time": "11:00", "title": "BoE Rate Decision", "fc": "5.25%", "prev": "5.25%"}, {"cur": "USD", "impact": "normal", "time": "16:30", "title": "Crude Oil Inventories", "fc": "-1.1M", "prev": "0.4M"}, {"cur": "JPY", "impact": "normal", "time": "04:00", "title": "BoJ Policy Rate", "fc": "0.10%", "prev": "0.10%"}, {"cur": "XAU", "impact": "high", "time": "20:00", "title": "FOMC Member Speech", "fc": "—", "prev": "—"}]}, "mentorship": {"free": {"title": "Book School (10,000+)", "price": "TZS 0 — for everyone, forever", "desc": "Every lesson is built on a library of 10,000+ forex books (Price Action, Liquidity, and the 17,568 strategies running inside our app). You learn rules that are actually used — not just theory.", "lessons": [{"t": "1. Forex Basics", "d": "Pips, lots, leverage, currency pairs — all the fundamentals, made simple."}, {"t": "2. Brokers & MT5", "d": "Choosing a broker, opening a demo account, using MetaTrader 5."}, {"t": "3. Moving Averages", "d": "EMA 20/50/200 — how to read the trend."}, {"t": "4. Support & Resistance", "d": "Levels, round numbers, and price zones."}, {"t": "5. Candles & Patterns", "d": "Engulfing, Pin Bar, Rejection — reliable triggers."}, {"t": "6. Price Action & Structure", "d": "BOS, CHoCH, swing highs/lows — reading the real market."}, {"t": "7. Liquidity & Smart Money", "d": "Sweeps, order blocks, FVG — how the big players move."}, {"t": "8. Risk Management", "d": "The 0.5% rule, R-multiples, journaling — protect capital first."}], "note": "✓ New lessons added weekly — from real books"}, "pro": {"title": "Personal Mentorship (Pro)", "price": "From $3/week (≈ TZS 7,500) — M-Pesa / TigoPesa / Airtel Money", "desc": "For those who want a close mentor: live sessions, a personal plan, and daily review of your trades.", "points": ["Live sessions with a mentor (WhatsApp group)", "Personal trading plan + review of your trades", "Direct Q&A — every day", "Special sessions: Gold, Smart Money, News trading"]}}, "analysis": {"free": {"title": "Market Outlook — daily", "price": "TZS 0", "desc": "Daily analysis: Gold/majors/crypto direction, sessions (Asia → London → NY), and impact news — in simple language.", "posts": [{"date": "TODAY", "title": "Gold (XAUUSD): Bullish toward 2405", "body": "Price above EMA20/50 (H1). The London sweep at 2375 confirmed demand. We expect continuation to the 2405 round level; below 2372 the outlook turns neutral."}, {"date": "YESTERDAY", "title": "EURUSD: Range 1.0800–1.0860", "body": "No breakout — EUR CPI capped momentum. Range trading until USD news; a break above 1.0860 opens 1.0900."}]}, "pro": {"title": "Full Setups + Your Analysis (Pro)", "price": "Included in Pro ($3/week) — or get the app (free) for auto-signals", "desc": "Setups with complete Entry/SL/TP including the reasoning (why), plus analysis of any pair you request.", "points": ["Signals with full Entry / SL / TP (APA, A+++ , GOLD COMBO)", "Request analysis for your favorite pairs", "The reason behind every setup — learn as you follow", "Priority on mentorship questions"]}}, "tools": [{"ic": "⚡", "t": "Scan All Strategies", "d": "One button scans 5 engines: APA, UGAIGAI, 17,568 Books, A+++ and GOLD COMBO."}, {"ic": "📐", "t": "Lot Size Calculator", "d": "Risk % and SL pips → the right lot size for your account."}, {"ic": "🗓", "t": "News Calendar", "d": "Weekly impact news with forecast/previous — EAT timezone."}, {"ic": "📓", "t": "Trade Journal", "d": "Auto-follow at 0.5% risk — every 80%+ signal journals itself."}], "download": {"title": "Download PipMaster — Free App", "sub": "Signals (0.5% risk auto-follow), EAT news, Book School, Journal — all on your phone.", "meta": "Android 5.0+ • 538KB • no card, no payment", "url": "https://yohanamwipopo-cyber.github.io/Pipmaster-site/apk/PipMentor-v4.0.3.apk", "steps": ["Tap DOWNLOAD — the APK will download (allow 'Install unknown apps' if asked).", "Open the downloaded file → Install.", "Close any old PipMaster app first.", "Open the app → tap SCAN ALL STRATEGIES → start."]}, "about": {"text": "PipMaster brings real forex education to East Africa: a school built on 10,000+ books, daily analysis, and a live-market signals app — with mobile money payments.", "mission": "Real-world forex education, in Swahili, free for everyone."}, "ui": {"lang_other": "SW", "nav": {"home": "HOME", "news": "NEWS", "mentorship": "MENTORSHIP", "analysis": "ANALYSIS", "tools": "TOOLS", "about": "ABOUT", "cta": "⬇ GET APP"}, "b_free": "FREE", "b_pro": "PRO", "badge_free": "FREE — FOREVER", "badge_pro": "PAID — PRO", "plan_free": "START NOW", "plan_pro": "GET PRO", "mini_news": "EAT News", "mini_news_d": "Impact + forecast/previous", "mini_school": "Book School", "mini_school_d": "Lessons from 10,000+ books", "mini_pro": "Pro Mentorship", "mini_pro_d": "Live + personal methods", "mini_ana": "Market analysis", "mini_ana_d": "Daily outlook", "mini_sig": "Full signals (SL/TP)", "mini_sig_d": "APA • A+++ • GOLD COMBO", "sec_mentor": "🎓 Mentorship", "sec_analysis": "📊 Market Analysis", "see_all": "See the full weekly calendar →", "book_why": "Why 10,000+ books? Every free lesson comes from real forex book rules running inside our app (the 17,568-strategy engine). You learn rules that are actually used — not just theory.", "h1_news": "📰 Market News (EAT)", "h1_mentorship": "🎓 Mentorship", "sub_mentorship": "Two ways to learn: free forever for everyone — built on the 10,000+ book library — and Pro for those who want a close mentor.", "h_lessons": "Lessons (Book School)", "h1_analysis": "📊 Market Analysis", "h_posts": "Recent outlooks", "h1_tools": "🧰 Forex Tools", "sub_tools": "All free — available inside the PipMaster app.", "h1_download": "⬇ Download App", "h_steps": "How to install", "note_security": "Security: this APK is signed by the PipMaster developer. No strange permissions, no data collection, and no payments inside the app.", "h1_about": "About & Contact", "pay_pro": "Payments (Pro)", "mission": "Our mission", "pro_note": "Mobile money — no card", "pro_note2": "The mobile app gives auto-signals free — Pro adds the mentor", "src_note": "Data source: investing.com → ForexFactory → TradingView (fallback chain). All times are EAT (Dar es Salaam). The mobile app shows this calendar live — with auto-pause before major news."}}};
@@ -182,6 +193,10 @@ function applyUI(){
   document.querySelectorAll("[data-nav]").forEach(function(el){
     var k=el.getAttribute("data-nav"); var v=getP(window.C,"ui.nav."+k); if(v)el.textContent=v;
   });
+  try{ var S=getP(window.C,"site")||{}; var num=function(x){return String(x||"").replace(/[^0-9+]/g,"");};
+    var fw=document.getElementById("foot-wa"); if(fw&&S.whatsapp)fw.href="https://wa.me/"+num(S.whatsapp).replace("+","");
+    var ft=document.getElementById("foot-tel"); if(ft&&S.phone)ft.href="tel:"+num(S.phone);
+  }catch(e){}
   var lb=document.getElementById("langbtn");
   if(lb){ lb.textContent=(window.CL==="sw")?"EN":"SW"; lb.onclick=function(){ try{localStorage.setItem("pm_lang",window.CL==="sw"?"en":"sw");}catch(e){} location.href=location.pathname+"?lang="+(window.CL==="sw"?"en":"sw"); }; }
 }
