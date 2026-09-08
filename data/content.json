@@ -1,8 +1,7 @@
 {
   "meta": {
-    "updated": "2026-09-08",
-    "by": "PipMaster generator",
-    "default_lang": "sw"
+    "updated": "2026-09-08T17:29:26.781Z",
+    "by": "PipMaster Admin (en)"
   },
   "sw": {
     "site": {
@@ -1029,6 +1028,18 @@
       "f_ana_pro": "Pro Analysis",
       "f_cal": "News Calendar",
       "doc_title": "PipMaster — Forex School, Analysis & Signals"
+    },
+    "gallery": {
+      "items": []
     }
-  }
+  },
+  "media": [
+    {
+      "name": "IMG-20260908-WA0012.jpg",
+      "url": "https://raw.githubusercontent.com/yohanamwipopo-cyber/Pipmaster-site/main/media/1788888564088_IMG-20260908-WA0012.jpg",
+      "path": "media/1788888564088_IMG-20260908-WA0012.jpg",
+      "type": "image/jpeg",
+      "size": "77KB"
+    }
+  ]
 }
