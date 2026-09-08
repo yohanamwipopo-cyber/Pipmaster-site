@@ -18,9 +18,9 @@
       "disclaimer": "PipMaster ni jukwaa la elimu na mazoezi (paper). Si ushauri wa kifedha — forex ina hatari kubwa ya hasara. Trade kwa busara."
     },
     "hero": {
-      "kicker": "FOREX — ELIMU • ANALYSIS • SIGNALS",
-      "title": "Jifunze forex, pata analysis ya soko, na trade kwa mpango — kwa Kiswahili.",
-      "sub": "PipMaster inakupa habari za soko (EAT), mentorship kutoka kwenye vitabu 10,000+ vya forex, na analysis za kila siku — bure. Wale wanaotaka zaidi wana mpango wa Pro.",
+      "kicker": "LEARN • ANALYZE • TRADE • IMPROVE",
+      "title": "Master the Market. Master Your Pips.",
+      "sub": "Analysis ya kitaalamu ya forex, elimu na zana za trading zinazokusaidia kufanya maamuzi bora — kwa Kiswahili na English.",
       "cta1": "⬇ PAKUA APP (APK) — BURE",
       "cta2": "JIUNGE NA PRO →",
       "trust": [
@@ -132,6 +132,391 @@
         "d": "Auto-follow 0.5% risk — kila signal 80%+ inajikinga journal."
       }
     ],
+    "market": {
+      "h1": "Live Market",
+      "sub": "Real-time prices — Forex, Metals and Crypto. Source: Yahoo Finance.",
+      "live": "LIVE",
+      "updated": "Updated",
+      "analyze": "Analyze",
+      "viewfull": "View Full Market",
+      "bull": "BULLISH",
+      "bear": "BEARISH",
+      "open": "MARKET OPEN",
+      "closed": "MARKET CLOSED",
+      "tab_fx": "Forex",
+      "tab_met": "Metals",
+      "tab_cry": "Crypto",
+      "chg": "Change",
+      "high": "High (24h)",
+      "low": "Low (24h)",
+      "status": "Status"
+    },
+    "anap": {
+      "h1": "Market Analysis",
+      "sub": "Structured setups — BUY, SELL or NO CONFIRMATION. We never force a signal.",
+      "f_inst": "Instrument",
+      "f_style": "Style",
+      "f_tf": "Timeframe",
+      "f_status": "Status",
+      "all": "All",
+      "dir_buy": "BUY",
+      "dir_sell": "SELL",
+      "dir_nc": "NO CONFIRMATION",
+      "entry": "Entry",
+      "sl": "Stop Loss",
+      "tp1": "Take Profit 1",
+      "tp2": "Take Profit 2",
+      "rr": "Risk/Reward",
+      "conf": "Confidence",
+      "status": "Status",
+      "created": "Created",
+      "view": "View Full",
+      "pro_note": "Full analysis (reasoning + chart + updates) is for PRO members.",
+      "hist_h": "Analysis History",
+      "col_date": "Date",
+      "col_res": "Result",
+      "stats_h": "Statistics (from real history)",
+      "st_total": "Total analyses",
+      "st_win": "Winning",
+      "st_loss": "Losing",
+      "st_wr": "Win rate",
+      "st_rr": "Avg RR",
+      "st_tp1": "TP1 rate",
+      "st_tp2": "TP2 rate",
+      "disc": "History shows ALL outcomes — including losses. Statistics are built from actual recorded results.",
+      "nc_msg": "No valid setup currently meets the required confirmation criteria.",
+      "items": [
+        {
+          "sym": "XAUUSD",
+          "dir": "BUY",
+          "tf": "4H",
+          "sty": "Day Trading",
+          "entry": "4425.00",
+          "sl": "4410.00",
+          "tp1": "4448.00",
+          "tp2": "4470.00",
+          "rr": "1:3.0",
+          "conf": 87,
+          "status": "ACTIVE",
+          "date": "2026-09-08"
+        },
+        {
+          "sym": "EURUSD",
+          "dir": "BUY",
+          "tf": "1H",
+          "sty": "Scalping",
+          "entry": "1.1612",
+          "sl": "1.1588",
+          "tp1": "1.1640",
+          "tp2": "1.1668",
+          "rr": "1:2.3",
+          "conf": 82,
+          "status": "TP1 HIT",
+          "date": "2026-09-07"
+        },
+        {
+          "sym": "GBPJPY",
+          "dir": "SELL",
+          "tf": "4H",
+          "sty": "Swing",
+          "entry": "203.40",
+          "sl": "204.60",
+          "tp1": "201.80",
+          "tp2": "199.90",
+          "rr": "1:2.9",
+          "conf": 78,
+          "status": "SL HIT",
+          "date": "2026-09-05"
+        },
+        {
+          "sym": "BTCUSD",
+          "dir": "NC",
+          "tf": "1H",
+          "sty": "Day Trading",
+          "entry": "",
+          "sl": "",
+          "tp1": "",
+          "tp2": "",
+          "rr": "",
+          "conf": 0,
+          "status": "NO CONFIRMATION",
+          "date": "2026-09-08"
+        }
+      ]
+    },
+    "learn": {
+      "h1": "Learn — Forex Academy",
+      "sub": "Structured courses: basics, technical analysis, strategies, risk management and psychology.",
+      "prog": "Progress",
+      "cont": "Continue",
+      "mk_done": "MARK DONE",
+      "done": "DONE",
+      "mods": [
+        {
+          "t": "Forex Basics",
+          "ls": [
+            "What is Forex?",
+            "Currency pairs: Base vs Quote",
+            "Pips, Lots and Spread",
+            "Leverage and Margin",
+            "Trading sessions",
+            "Orders: Market vs Pending"
+          ]
+        },
+        {
+          "t": "Technical Analysis",
+          "ls": [
+            "Candlesticks",
+            "Market structure",
+            "Trend and Liquidity",
+            "Breakouts",
+            "Support & Resistance",
+            "Fair Value Gap (FVG)",
+            "Order Blocks",
+            "Multi-timeframe"
+          ]
+        },
+        {
+          "t": "Strategies",
+          "ls": [
+            "Scalping",
+            "Day Trading",
+            "Swing",
+            "Price Action",
+            "Breakout strategies",
+            "News trading"
+          ]
+        },
+        {
+          "t": "Risk Management",
+          "ls": [
+            "Risk per trade",
+            "Position sizing",
+            "Stop Loss & Take Profit",
+            "Risk/Reward",
+            "Drawdown",
+            "Prop-firm rules"
+          ]
+        },
+        {
+          "t": "Trading Psychology",
+          "ls": [
+            "Discipline",
+            "FOMO",
+            "Revenge trading",
+            "Overtrading",
+            "Patience",
+            "Accepting losses"
+          ]
+        }
+      ]
+    },
+    "tools2": {
+      "h1": "Trading Tools",
+      "sub": "Risk, lot size, pip value, profit and drawdown calculators — all working live.",
+      "risk_t": "Risk Calculator",
+      "risk_d": "Calculate risk amount and potential profit/loss.",
+      "lot_t": "Lot Size Calculator",
+      "lot_d": "Correct position size for your risk %.",
+      "pip_t": "Pip Value Calculator",
+      "pip_d": "Value of one pip for a pair and lot size.",
+      "prof_t": "Profit Calculator",
+      "prof_d": "Estimated profit/loss from entry to exit.",
+      "dd_t": "Drawdown Calculator",
+      "dd_d": "Account health: drawdown and what remains.",
+      "bal": "Account balance ($)",
+      "riskp": "Risk (%)",
+      "entryl": "Entry",
+      "sll": "Stop Loss",
+      "tpl": "Take Profit",
+      "pairl": "Pair",
+      "lotsl": "Lot size",
+      "exitl": "Exit",
+      "accl": "Account size ($)",
+      "eql": "Current equity ($)",
+      "maxl": "Max loss ($)",
+      "pld": "Today's P/L ($)",
+      "btn": "CALCULATE",
+      "res_risk": "Risk amount",
+      "res_prof": "Potential profit",
+      "res_rr": "Risk/Reward",
+      "res_lot": "Lot size",
+      "res_pip": "Pip value",
+      "res_pl": "Profit/Loss",
+      "res_dd": "Drawdown",
+      "res_rem": "Remaining",
+      "res_maxrisk": "Max safe risk",
+      "err": "Enter valid numbers"
+    },
+    "prop": {
+      "h1": "Prop Firm Hub",
+      "sub": "Compare prop firms — rules, targets and limits. Plus a prop risk calculator.",
+      "tbl_f": "Firm",
+      "tbl_acc": "Account",
+      "tbl_type": "Challenge",
+      "tbl_target": "Target %",
+      "tbl_dl": "Daily Loss %",
+      "tbl_ml": "Max Loss %",
+      "tbl_days": "Min days",
+      "tbl_fee": "Fee",
+      "calc_t": "Prop Firm Risk Calculator",
+      "calc_d": "Know what remains before you hit a limit — an awareness tool, not a pass guarantee.",
+      "disc": "Prop-firm rules change — verify on the official site before a challenge. Source/date shown where possible.",
+      "firms": [
+        {
+          "n": "FTMO",
+          "acc": "$10k–$200k",
+          "ty": "2-step",
+          "tg": "10% / 5%",
+          "dl": "5%",
+          "ml": "10%",
+          "dy": "4",
+          "fe": "€155+",
+          "src": "ftmo.com"
+        },
+        {
+          "n": "The5ers",
+          "acc": "$5k–$100k",
+          "ty": "Hyper Growth",
+          "tg": "10%",
+          "dl": "3%",
+          "ml": "6%",
+          "dy": "0",
+          "fe": "$39+",
+          "src": "the5ers.com"
+        },
+        {
+          "n": "FundedNext",
+          "acc": "$6k–$200k",
+          "ty": "Stellar 2-step",
+          "tg": "8% / 5%",
+          "dl": "5%",
+          "ml": "10%",
+          "dy": "5",
+          "fe": "$59+",
+          "src": "fundednext.io"
+        },
+        {
+          "n": "Blueprint Funded",
+          "acc": "$5k–$100k",
+          "ty": "1-step",
+          "tg": "10%",
+          "dl": "4%",
+          "ml": "8%",
+          "dy": "3",
+          "fe": "$59+",
+          "src": "blueprintfunded.io"
+        }
+      ]
+    },
+    "bro": {
+      "h1": "Broker Hub",
+      "sub": "What to check in a broker: regulation, spreads, commission, deposits and withdrawals.",
+      "disc": "Disclosure: some links may be affiliate links — at no extra cost to you. Always verify regulation yourself.",
+      "reg": "Regulation",
+      "min_dep": "Min deposit",
+      "spread": "Spread (EURUSD)",
+      "comm": "Commission",
+      "plat": "Platforms",
+      "inst": "Instruments",
+      "dep": "Deposit/Withdraw",
+      "web": "Website",
+      "firms": [
+        {
+          "n": "Exness",
+          "rg": "FSA, CySEC",
+          "md": "$1",
+          "sp": "0.0 pip (Raw)",
+          "cm": "$3.5/lot",
+          "pt": "MT4, MT5",
+          "ins": "Forex, Metals, Crypto",
+          "dp": "M-Pesa, Tigo, Airtel, Bank",
+          "web": "exness.com"
+        },
+        {
+          "n": "IC Markets",
+          "rg": "ASIC, CySEC",
+          "md": "$200",
+          "sp": "0.0 pip (Raw)",
+          "cm": "$3.5/lot",
+          "pt": "MT4, MT5, cTrader",
+          "ins": "Forex, Metals, Indices",
+          "dp": "Bank, Card, Skrill",
+          "web": "icmarkets.com"
+        },
+        {
+          "n": "XM",
+          "rg": "CySEC, ASIC",
+          "md": "$5",
+          "sp": "1.0 pip (Standard)",
+          "cm": "$0",
+          "pt": "MT4, MT5",
+          "ins": "Forex, Metals, Indices",
+          "dp": "Bank, Card, M-Pesa",
+          "web": "xm.com"
+        }
+      ]
+    },
+    "news2": {
+      "h1": "News & Economic Calendar",
+      "sub": "Market news + economic calendar (EAT) — ForexFactory.",
+      "tab_news": "NEWS",
+      "tab_cal": "CALENDAR",
+      "f_cur": "Currency",
+      "f_imp": "Impact",
+      "all": "All",
+      "hi": "HIGH",
+      "no": "NORMAL",
+      "actual": "Actual",
+      "when": "Time (EAT)",
+      "event": "Event",
+      "prev_": "Previous",
+      "fc_": "Forecast",
+      "src": "Source"
+    },
+    "journal": {
+      "h1": "Trade Journal",
+      "sub": "Record your trades — data stays on your device (localStorage). Nobody else sees it.",
+      "add_t": "Add New Trade",
+      "inst": "Instrument",
+      "dir": "Direction",
+      "buy": "BUY",
+      "sell": "SELL",
+      "entryl": "Entry",
+      "sll": "SL",
+      "tpl": "TP",
+      "lotsl": "Lots",
+      "stratl": "Strategy",
+      "notel": "Notes",
+      "btn_add": "ADD TRADE",
+      "hist_h": "Trade History",
+      "an_h": "Journal Statistics",
+      "st_total": "Total trades",
+      "st_wr": "Win rate",
+      "st_pf": "Profit factor",
+      "st_pl": "Total P/L",
+      "col_inst": "Instrument",
+      "col_dir": "Direction",
+      "col_res": "Result",
+      "col_pl": "P/L",
+      "res_win": "WIN",
+      "res_loss": "LOSS",
+      "res_be": "BE",
+      "empty": "No trades yet — add your first one above.",
+      "plan_t": "My Trading Plan",
+      "plan_d": "Your rules — the system reminds you when you cross them.",
+      "p_risk": "Max risk per trade (%)",
+      "p_maxtr": "Max trades/day",
+      "p_maxloss": "Max daily loss (%)",
+      "p_minrr": "Min RR",
+      "p_inst": "Preferred instruments",
+      "p_sess": "Preferred sessions",
+      "p_rules": "My rules",
+      "btn_save": "SAVE PLAN",
+      "btn_reset": "RESET ALL JOURNAL",
+      "warn_daily": "⚠ Max daily loss reached!",
+      "del": "DEL"
+    },
     "download": {
       "title": "Pakua PipMaster — App ya Bure",
       "sub": "Signals (auto-follow 0.5% risk), News za EAT, Shule ya Vitabu, Journal — yote kwenye simu yako.",
@@ -149,6 +534,108 @@
       "mission": "Elimu ya forex ya bei halisi, kwa Kiswahili, bure kwa kila mtu."
     },
     "ui": {
+      "h_cta1": "CHUNUZA ANALYSIS →",
+      "h_cta2": "ANZA KUJIFUNZA",
+      "h_live": "SOKO LIVE",
+      "h_featured": "Analysis Zilizoteuliwa",
+      "h_why": "Kwa Nini PipMaster",
+      "h_how": "Inavyofanya Kazi",
+      "h_finalcta": "Kuwa Trader Bora.",
+      "h_finaltxt": "Jifunze, chambua soko, simamia risk na fuata maendeleo yako na PipMaster.",
+      "h_cta_free": "ANZA BURE",
+      "h_cta_explore": "CHUNUZA PIPMASTER",
+      "why": [
+        {
+          "ic": "🎯",
+          "t": "Analysis ya Kitaalamu",
+          "d": "Analysis yenye muundo — si maitu ya bahati nasibu."
+        },
+        {
+          "ic": "📚",
+          "t": "Elimu ya Trading",
+          "d": "Jifunze forex kuanzia msingi hadi kiwango cha juu."
+        },
+        {
+          "ic": "🧰",
+          "t": "Zana za Akili",
+          "d": "Kokotoa risk, position size na matokeo."
+        },
+        {
+          "ic": "📓",
+          "t": "Trade Journal",
+          "d": "Fuatilia na uchambuze performance yako."
+        },
+        {
+          "ic": "📡",
+          "t": "Market Intelligence",
+          "d": "Fuata matukio ya uchumi na habari muhimu."
+        },
+        {
+          "ic": "📈",
+          "t": "Ukuaji wa Trader",
+          "d": "Bora kwa mentorship, nidhamu na data."
+        }
+      ],
+      "how": [
+        {
+          "t": "Jifunze",
+          "d": "Jenga msingi wako wa forex."
+        },
+        {
+          "t": "Chambua",
+          "d": "Soma soko na setups zilizopo."
+        },
+        {
+          "t": "Kokotoa",
+          "d": "Simamia risk na position size."
+        },
+        {
+          "t": "Trade",
+          "d": "Tekeleza kwa kufuata mpango wako."
+        },
+        {
+          "t": "Rekodi",
+          "d": "Andika trade kwenye journal."
+        },
+        {
+          "t": "Boreka",
+          "d": "Tumia takwimu zako kuimarika."
+        }
+      ],
+      "h1_signals": "⚡ Signals za Soko",
+      "sub_signals": "Engines 5 za scan: APA, UGAIGAI, Vitabu 17,568, A+++, GOLD COMBO — auto-scan kila sekunde 60, risk 0.5% kwa trade (app).",
+      "sg_eng": "Engines",
+      "sg_pool": "Pool ya setups",
+      "sg_risk": "Risk kwa trade",
+      "sg_scan": "Auto-scan",
+      "sg_band_t": "Signals kamili ziko kwenye app",
+      "sg_band_d": "Score ≥80 ⇒ ishara inafuatwa moja kwa moja kwenye app — SL/TP kamili.",
+      "sg_engines": [
+        {
+          "t": "APA",
+          "d": "Mfumo mkuu wa setups"
+        },
+        {
+          "t": "UGAIGAI",
+          "d": "Chujio la trend"
+        },
+        {
+          "t": "Vitabu 17,568",
+          "d": "Patterns za vitabu"
+        },
+        {
+          "t": "A+++",
+          "d": "Grade ya juu zaidi"
+        },
+        {
+          "t": "GOLD COMBO",
+          "d": "Njia za Gold pekee"
+        },
+        {
+          "t": "Auto-follow",
+          "d": "0.5% risk kwa kila ishara"
+        }
+      ],
       "lang_other": "EN",
       "nav": {
         "home": "HOME",
@@ -157,7 +644,15 @@
         "analysis": "ANALYSIS",
         "tools": "ZANA",
         "about": "KUHUSU",
-        "cta": "⬇ PAKUA APP"
+        "cta": "⬇ PAKUA APP",
+        "market": "SOKO",
+        "learn": "SOMA",
+        "prop": "PROP FIRMS",
+        "brokers": "BROKERS",
+        "sig": "SIGNALS",
+        "dl": "PAKUA",
+        "jr": "JOURNAL",
+        "more": "ZAIDI"
       },
       "b_free": "FREE",
       "b_pro": "PAID",
@@ -229,9 +724,9 @@
       "disclaimer": "PipMaster is an education and practice (paper) platform. Not financial advice — forex carries a high risk of loss. Trade responsibly."
     },
     "hero": {
-      "kicker": "FOREX — EDUCATION • ANALYSIS • SIGNALS",
-      "title": "Learn forex, get daily market analysis, and trade with a plan — in Swahili & English.",
-      "sub": "PipMaster gives you market news (EAT), mentorship built on 10,000+ forex books, and daily analysis — free. Want more? Go Pro.",
+      "kicker": "LEARN • ANALYZE • TRADE • IMPROVE",
+      "title": "Master the Market. Master Your Pips.",
+      "sub": "Professional Forex analysis, education and trading tools designed to help traders make better-informed decisions.",
       "cta1": "⬇ DOWNLOAD APP (APK) — FREE",
       "cta2": "JOIN PRO →",
       "trust": [
@@ -360,6 +855,108 @@
       "mission": "Real-world forex education, in Swahili, free for everyone."
     },
     "ui": {
+      "h_cta1": "EXPLORE ANALYSIS →",
+      "h_cta2": "START LEARNING",
+      "h_live": "LIVE MARKET",
+      "h_featured": "Featured Analysis",
+      "h_why": "Why PipMaster",
+      "h_how": "How It Works",
+      "h_finalcta": "Become a Better Trader.",
+      "h_finaltxt": "Build knowledge, analyze the market, manage risk and track your progress with PipMaster.",
+      "h_cta_free": "CREATE FREE ACCOUNT",
+      "h_cta_explore": "EXPLORE PIPMASTER",
+      "why": [
+        {
+          "ic": "🎯",
+          "t": "Professional Analysis",
+          "d": "Structured market analysis instead of random trade calls."
+        },
+        {
+          "ic": "📚",
+          "t": "Trading Education",
+          "d": "Learn Forex from beginner to advanced concepts."
+        },
+        {
+          "ic": "🧰",
+          "t": "Smart Trading Tools",
+          "d": "Calculate risk, position size and potential outcomes."
+        },
+        {
+          "ic": "📓",
+          "t": "Trading Journal",
+          "d": "Track and analyze personal trading performance."
+        },
+        {
+          "ic": "📡",
+          "t": "Market Intelligence",
+          "d": "Follow economic events and important market news."
+        },
+        {
+          "ic": "📈",
+          "t": "Trader Development",
+          "d": "Improve through mentorship, discipline and data."
+        }
+      ],
+      "how": [
+        {
+          "t": "Learn",
+          "d": "Build your Forex knowledge."
+        },
+        {
+          "t": "Analyze",
+          "d": "Study the market and available setups."
+        },
+        {
+          "t": "Calculate",
+          "d": "Manage risk and position size."
+        },
+        {
+          "t": "Trade",
+          "d": "Execute according to your own trading plan."
+        },
+        {
+          "t": "Journal",
+          "d": "Record the trade."
+        },
+        {
+          "t": "Improve",
+          "d": "Use your statistics to improve."
+        }
+      ],
+      "h1_signals": "⚡ Market Signals",
+      "sub_signals": "5 scan engines: APA, UGAIGAI, 17,568 Books, A+++, GOLD COMBO — auto-scan every 60s, 0.5% risk per trade (in-app).",
+      "sg_eng": "Engines",
+      "sg_pool": "Setup pool",
+      "sg_risk": "Risk per trade",
+      "sg_scan": "Auto-scan",
+      "sg_band_t": "Full signals live in the app",
+      "sg_band_d": "Score ≥80 ⇒ signal auto-followed in the app — complete SL/TP.",
+      "sg_engines": [
+        {
+          "t": "APA",
+          "d": "Core setup engine"
+        },
+        {
+          "t": "UGAIGAI",
+          "d": "Trend filter"
+        },
+        {
+          "t": "17,568 Books",
+          "d": "Book patterns"
+        },
+        {
+          "t": "A+++",
+          "d": "Highest grade"
+        },
+        {
+          "t": "GOLD COMBO",
+          "d": "Gold-only paths"
+        },
+        {
+          "t": "Auto-follow",
+          "d": "0.5% risk per signal"
+        }
+      ],
       "lang_other": "SW",
       "nav": {
         "home": "HOME",
@@ -368,7 +965,15 @@
         "analysis": "ANALYSIS",
         "tools": "TOOLS",
         "about": "ABOUT",
-        "cta": "⬇ GET APP"
+        "cta": "⬇ GET APP",
+        "market": "MARKET",
+        "learn": "LEARN",
+        "prop": "PROP FIRMS",
+        "brokers": "BROKERS",
+        "sig": "SIGNALS",
+        "dl": "DOWNLOAD",
+        "jr": "JOURNAL",
+        "more": "MORE"
       },
       "b_free": "FREE",
       "b_pro": "PRO",
