@@ -1,7 +1,79 @@
 {
+  "content": [
+    {
+      "id": "c1",
+      "type": "announce",
+      "pin": 1,
+      "status": "published",
+      "lang": "both",
+      "at": 1788891676216.0,
+      "t": "Karibu PipMaster — jukwaa lako kamili la forex",
+      "x": "Hapa ndipo kila kitu kinachapishwa kwanza: updates za soko, analysis, elimu, matangazo na app updates. Fuatilia instrument uipendeleo.",
+      "t_en": "Welcome to PipMaster — your complete forex platform",
+      "x_en": "Everything publishes here first: market updates, analysis, education, announcements and app updates. Follow the instruments you trade."
+    },
+    {
+      "id": "c2",
+      "type": "update",
+      "inst": "XAUUSD",
+      "status": "published",
+      "lang": "both",
+      "at": 1788896476216.0,
+      "t": "Gold imekataa juu ya London — tunafuatilia",
+      "x": "Bei imepinga London high; tunasubiri uthibitisho wa M15 kabla ya mtazamo wowote. NO CONFIRMATION kwa sasa.",
+      "t_en": "Gold rejected the London high — watching",
+      "x_en": "Price rejected the London high; waiting for M15 confirmation before any bias. NO CONFIRMATION for now."
+    },
+    {
+      "id": "c3",
+      "type": "article",
+      "feat": 1,
+      "status": "published",
+      "lang": "both",
+      "at": 1788880876216.0,
+      "media": "https://yohanamwipopo-cyber.github.io/Pipmaster-site/og.jpg",
+      "t": "Position Sizing: msingi wa kufunga kwa nidhamu",
+      "x": "Kwa nini 0.5–1% kwa kila trade kunabadilisha matokeo yako ya muda mrefu — na jinsi ya kukokotoa size sahihi.",
+      "t_en": "Position Sizing: the foundation of disciplined trading",
+      "x_en": "Why 0.5–1% per trade changes your long-term results — and how to calculate the right size."
+    },
+    {
+      "id": "c4",
+      "type": "education",
+      "status": "published",
+      "lang": "both",
+      "at": 1788805276216.0,
+      "t": "Fair Value Gap (FVG) kwa Kiswahili",
+      "x": "FVG ni pengo la bei ambalo mara nyingi hujazwa tena — jinsi ya kulitambua na kulitumia kwa weka Salio.",
+      "t_en": "Fair Value Gap (FVG) explained",
+      "x_en": "An FVG is a price imbalance that often gets filled — how to spot it and use it."
+    },
+    {
+      "id": "c5",
+      "type": "app",
+      "status": "published",
+      "lang": "both",
+      "at": 1788790876216.0,
+      "t": "PipMaster v4.0.3 — nini kipya",
+      "x": "Auto-scan ya sekunde 60, journal ndani ya app, SW/EN kamili — pakua APK bure.",
+      "t_en": "PipMaster v4.0.3 — what's new",
+      "x_en": "60s auto-scan, in-app journal, full SW/EN — download the free APK."
+    },
+    {
+      "id": "c6",
+      "type": "image",
+      "status": "published",
+      "lang": "both",
+      "at": 1788718876216.0,
+      "media": "https://yohanamwipopo-cyber.github.io/Pipmaster-site/og.jpg",
+      "t": "PipMaster — Master the Market. Master Your Pips.",
+      "x": ""
+    }
+  ],
   "meta": {
-    "updated": "2026-09-08T17:31:00.040Z",
-    "by": "PipMaster Admin (en)"
+    "updated": "2026-09-08",
+    "by": "PipMaster generator",
+    "default_lang": "sw"
   },
   "sw": {
     "site": {
@@ -528,6 +600,7 @@
         "Fungua app → bonyeza SCAN ALL STRATEGIES → anza."
       ]
     },
+    "__SEEDMARK__": "1",
     "about": {
       "text": "PipMaster inaleta elimu halisi ya forex kwa watu wa Afrika Mashariki: shule ya vitabu 10,000+, analysis ya kila siku, na app ya signals ya soko halisi — yote ikiwa na njia ya malipo ya simu.",
       "mission": "Elimu ya forex ya bei halisi, kwa Kiswahili, bure kwa kila mtu."
@@ -635,6 +708,24 @@
           "d": "0.5% risk kwa kila ishara"
         }
       ],
+      "feed_h": "FEED YA PIPMASTER",
+      "feed_sub": "Yote yanachapishwa hapa kwanza — updates, analysis, elimu, matangazo.",
+      "f_now": "sasa hivi",
+      "f_min": "dk",
+      "f_hr": "sa",
+      "f_today": "leo",
+      "f_day": "siku",
+      "f_copy": "COPY",
+      "see_feed": "ONA FEED YOTE →",
+      "h_edu": "Elimu",
+      "edu_sub": "Jifunze hatua kwa hatua",
+      "follow": "+ FUATILIA",
+      "unfollow": "★ UNAFUATILA",
+      "inst_content": "Maudhui ya",
+      "inst_analysis": "Analysis ya",
+      "inst_news": "Habari zinazohusiana",
+      "inst_edu": "Elimu ya",
+      "inst_tools": "Zana",
       "lang_other": "EN",
       "nav": {
         "home": "HOME",
@@ -956,6 +1047,24 @@
           "d": "0.5% risk per signal"
         }
       ],
+      "feed_h": "LATEST PIP MASTER",
+      "feed_sub": "Everything publishes here first — updates, analysis, education, announcements.",
+      "f_now": "just now",
+      "f_min": "m",
+      "f_hr": "h",
+      "f_today": "today",
+      "f_day": "d",
+      "f_copy": "COPY",
+      "see_feed": "VIEW FULL FEED →",
+      "h_edu": "Education",
+      "edu_sub": "Learn step by step",
+      "follow": "+ FOLLOW",
+      "unfollow": "★ FOLLOWING",
+      "inst_content": "Content on",
+      "inst_analysis": "Analysis for",
+      "inst_news": "Related news",
+      "inst_edu": "Education for",
+      "inst_tools": "Tools",
       "lang_other": "SW",
       "nav": {
         "home": "HOME",
@@ -1028,29 +1137,6 @@
       "f_ana_pro": "Pro Analysis",
       "f_cal": "News Calendar",
       "doc_title": "PipMaster — Forex School, Analysis & Signals"
-    },
-    "gallery": {
-      "items": [
-        {
-          "url": "",
-          "type": "",
-          "cap": ""
-        },
-        {
-          "url": "",
-          "type": "",
-          "cap": ""
-        }
-      ]
     }
-  },
-  "media": [
-    {
-      "name": "IMG-20260908-WA0012.jpg",
-      "url": "https://raw.githubusercontent.com/yohanamwipopo-cyber/Pipmaster-site/main/media/1788888564088_IMG-20260908-WA0012.jpg",
-      "path": "media/1788888564088_IMG-20260908-WA0012.jpg",
-      "type": "image/jpeg",
-      "size": "77KB"
-    }
-  ]
+  }
 }
