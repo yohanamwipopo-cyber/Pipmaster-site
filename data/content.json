@@ -1,8 +1,207 @@
 {
+  "site": {
+    "name": "PipMaster",
+    "tagline": "Forex — Elimu • Analysis • Signals",
+    "phone": "+255 617 804 762",
+    "whatsapp": "+255 617 804 762",
+    "payments": {
+      "mpesa": "+255 617 804 762",
+      "tigo": "+255 617 804 762",
+      "airtel": "+255 617 804 762"
+    },
+    "disclaimer": "PipMaster ni jukwaa la elimu na mazoezi (paper). Si ushauri wa kifedha — forex ina hatari kubwa ya hasara. Trade kwa busara."
+  },
+  "hero": {
+    "kicker": "FOREX — ELIMU • ANALYSIS • SIGNALS",
+    "title": "Jifunze forex, pata analysis ya soko, na trade kwa mpango — kwa Kiswahili.",
+    "sub": "PipMaster inakupa habari za soko (EAT), mentorship kutoka kwenye vitabu 10,000+ vya forex, na analysis za kila siku — bure. Wale wanaotaka zaidi wana mpango wa Pro.",
+    "cta1": "⬇ PAKUA APP (APK) — BURE",
+    "cta2": "ANZA MENTORSHIP BURE →",
+    "trust": [
+      "Engines 5 za signals (APA, UGAIGAI, Vitabu 17,568, A+++ , GOLD COMBO)",
+      "Data ya moja kwa moja: Yahoo / Binance / OKX",
+      "Bure kuanzia — hakuna kadi",
+      "Kiswahili + English"
+    ]
+  },
+  "news": {
+    "title": "News za Soko (EAT)",
+    "desc": "Habari zenye athari (normal + high) zenye forecast na previous — USD ikipaumbele. Chanzo: investing.com → ForexFactory → TradingView.",
+    "items": [
+      {
+        "cur": "USD",
+        "impact": "high",
+        "time": "14:30",
+        "title": "Non-Farm Payrolls",
+        "fc": "0.2%",
+        "prev": "0.3%"
+      },
+      {
+        "cur": "EUR",
+        "impact": "normal",
+        "time": "16:00",
+        "title": "CPI m/m",
+        "fc": "0.3%",
+        "prev": "0.2%"
+      },
+      {
+        "cur": "GBP",
+        "impact": "high",
+        "time": "11:00",
+        "title": "BoE Rate Decision",
+        "fc": "5.25%",
+        "prev": "5.25%"
+      },
+      {
+        "cur": "USD",
+        "impact": "normal",
+        "time": "16:30",
+        "title": "Crude Oil Inventories",
+        "fc": "-1.1M",
+        "prev": "0.4M"
+      },
+      {
+        "cur": "JPY",
+        "impact": "normal",
+        "time": "04:00",
+        "title": "BoJ Policy Rate",
+        "fc": "0.10%",
+        "prev": "0.10%"
+      },
+      {
+        "cur": "XAU",
+        "impact": "high",
+        "time": "20:00",
+        "title": "FOMC Member Speech",
+        "fc": "—",
+        "prev": "—"
+      }
+    ]
+  },
+  "mentorship": {
+    "free": {
+      "title": "Shule ya Vitabu (10,000+)",
+      "price": "TZS 0 — kwa kila mtu, milele",
+      "desc": "Masomo yote yamejengwa juu ya maktaba ya vitabu 10,000+ vya forex (Price Action, Liquidity, na strategies 17,568 zinazoendeshwa ndani ya app yetu). Unajifunza kanuni zinazotumika — si nadharia tupu.",
+      "lessons": [
+        {
+          "t": "1. Msingi wa Forex",
+          "d": "Pips, lots, leverage, currency pairs — msingi wote kwa Kiswahili rahisi."
+        },
+        {
+          "t": "2. Brokers & MT5",
+          "d": "Kuchagua broker, kufungua demo, kutumia MetaTrader 5."
+        },
+        {
+          "t": "3. Miallemo (Moving Averages)",
+          "d": "EMA 20/50/200 — jinsi ya kusoma mwelekeo."
+        },
+        {
+          "t": "4. Support & Resistance",
+          "d": "Levels, round numbers, na zones za bei."
+        },
+        {
+          "t": "5. Candles & Patterns",
+          "d": "Engulfing, Pin Bar, Rejection — trigger za kuaminika."
+        },
+        {
+          "t": "6. Price Action & Structure",
+          "d": "BOS, CHoCH, swing highs/lows — msoma wa chai halisi."
+        },
+        {
+          "t": "7. Liquidity & Smart Money",
+          "d": "Sweeps, order blocks, FVG — siri za wadau wakubwa."
+        },
+        {
+          "t": "8. Risk Management",
+          "d": "Kanuni ya 0.5%, R-multiple, journal — nirudie: kwanza hifadhi mtaji."
+        }
+      ],
+      "note": "✓ Masomo mapya yanaongezwa kila wiki — kutoka vitabu halisi"
+    },
+    "pro": {
+      "title": "Mentorship ya Karibu (Pro)",
+      "price": "Kuanzia $3/wiki (≈ TZS 7,500) — M-Pesa / TigoPesa / Airtel Money",
+      "desc": "Kwa wanaotaka mwalimu wa karibu: live sessions, mpango wa kibinafsi, na ukaguzi wa trades zako — kila siku.",
+      "points": [
+        "Live sessions na mentor (WhatsApp group)",
+        "Mpango wa trading wa kibinafsi + ukaguzi wa trades zako",
+        "Maswali ya moja kwa moja — kila siku",
+        "Vipindi vya maalumu: Gold, Smart Money, News trading"
+      ]
+    }
+  },
+  "analysis": {
+    "free": {
+      "title": "Market Outlook — kila siku",
+      "price": "TZS 0",
+      "desc": "Uchambuzi wa siku: mwelekeo wa Gold/majors/crypto, sessions (Asia → London → NY), na news zenye athari — kwa Kiswahili rahisi.",
+      "posts": [
+        {
+          "date": "LEO",
+          "title": "Gold (XAUUSD): Bullish hadi 2405",
+          "body": "Bei juu ya EMA20/50 (H1). London sweep ya 2375 ilithibitisha demand. Tunatarajia continuation hadi round 2405; chini ya 2372 outlook inageuka neutral."
+        },
+        {
+          "date": "JANA",
+          "title": "EURUSD: Range 1.0800–1.0860",
+          "body": "Hakuna breakout — CPI ya EUR ilibana haiba. Range trading hadi news za USD; breakout wa 1.0860 ufungua 1.0900."
+        }
+      ]
+    },
+    "pro": {
+      "title": "Setups Kamili + Analysis Yako (Pro)",
+      "price": "Ndani ya Pro ($3/wiki) — au pakua app (bure) kwa auto-signals",
+      "desc": "Setups zenye Entry/SL/TP kamili zenye sababu (why), na analysis ya pair unazohitaji kwa ombi lako.",
+      "points": [
+        "Signals zenye Entry / SL / TP kamili (APA, A+++ , GOLD COMBO)",
+        "Tuma ombi la pair yako — upate analysis yake",
+        "Sababu za kila setup — unajifunza unapo-follow",
+        "Priority kwenye maswali ya mentorship"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "ic": "⚡",
+      "t": "Scan All Strategies",
+      "d": "Batani moja inapima engines 5: APA, UGAIGAI, Vitabu 17,568, A+++ na GOLD COMBO."
+    },
+    {
+      "ic": "📐",
+      "t": "Lot Size Calculator",
+      "d": "Risk % na SL pips → lot size sahihi kwa account yako."
+    },
+    {
+      "ic": "🗓",
+      "t": "Kalenda ya News",
+      "d": "Impact news za wiki na forecast/previous — EAT."
+    },
+    {
+      "ic": "📓",
+      "t": "Trade Journal",
+      "d": "Auto-follow 0.5% risk — kila signal 80%+ inajikinga journal."
+    }
+  ],
+  "download": {
+    "title": "Pakua PipMaster — App ya Bure",
+    "sub": "Signals (auto-follow 0.5% risk), News za EAT, Shule ya Vitabu, Journal — yote kwenye simu yako.",
+    "meta": "Android 5.0+ • 538KB • hakuna kadi, hakuna malipo",
+    "url": "apk/PipMentor-v4.0.3.apk",
+    "steps": [
+      "Bonyeza PAKUA — APK itachukuliwa (ruhusu 'Install unknown apps' kama ikionekana).",
+      "Fungua faili uliyopakua → Install.",
+      "Funga app zozote za zamani za PipMaster kwanza.",
+      "Fungua app → bonyeza SCAN ALL STRATEGIES → anza."
+    ]
+  },
+  "about": {
+    "text": "PipMaster ni mradi wa Kiarabu--Kiswahili unaoleta elimu halisi ya forex kwa watu wa Afrika Mashariki: shule ya vitabu 10,000+, analysis ya kila siku, na app ya signals ya soko halisi — yote ikiwa na njia ya malipo ya simu.",
+    "mission": "Elimu ya forex ya bei halisi, kwa Kiswahili, bure kwa kila mtu."
+  },
   "meta": {
-    "updated": "2026-09-08",
-    "by": "PipMaster generator",
-    "default_lang": "sw"
+    "updated": "2026-09-08T15:39:29.281Z",
+    "by": "PipMaster Admin"
   },
   "sw": {
     "site": {
