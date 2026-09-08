@@ -187,7 +187,7 @@
     "title": "Pakua PipMaster — App ya Bure",
     "sub": "Signals (auto-follow 0.5% risk), News za EAT, Shule ya Vitabu, Journal — yote kwenye simu yako.",
     "meta": "Android 5.0+ • 538KB • hakuna kadi, hakuna malipo",
-    "url": "apk/PipMentor-v4.0.3.apk",
+    "url": "https://yohanamwipopo-cyber.github.io/Pipmaster-site/apk/PipMentor-v4.0.3.apk",
     "steps": [
       "Bonyeza PAKUA — APK itachukuliwa (ruhusu 'Install unknown apps' kama ikionekana).",
       "Fungua faili uliyopakua → Install.",
@@ -198,5 +198,9 @@
   "about": {
     "text": "PipMaster ni mradi wa Kiarabu--Kiswahili unaoleta elimu halisi ya forex kwa watu wa Afrika Mashariki: shule ya vitabu 10,000+, analysis ya kila siku, na app ya signals ya soko halisi — yote ikiwa na njia ya malipo ya simu.",
     "mission": "Elimu ya forex ya bei halisi, kwa Kiswahili, bure kwa kila mtu."
+  },
+  "meta": {
+    "updated": "2026-09-08",
+    "by": "setup — apk link absolute"
   }
 }
