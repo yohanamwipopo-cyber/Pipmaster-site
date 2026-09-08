@@ -22,7 +22,7 @@
       "title": "Jifunze forex, pata analysis ya soko, na trade kwa mpango — kwa Kiswahili.",
       "sub": "PipMaster inakupa habari za soko (EAT), mentorship kutoka kwenye vitabu 10,000+ vya forex, na analysis za kila siku — bure. Wale wanaotaka zaidi wana mpango wa Pro.",
       "cta1": "⬇ PAKUA APP (APK) — BURE",
-      "cta2": "ANZA MENTORSHIP BURE →",
+      "cta2": "JIUNGE NA PRO →",
       "trust": [
         "Engines 5 za signals (APA, UGAIGAI, Vitabu 17,568, A+++ , GOLD COMBO)",
         "Data ya moja kwa moja: Yahoo / Binance / OKX",
@@ -85,46 +85,6 @@
       ]
     },
     "mentorship": {
-      "free": {
-        "title": "Shule ya Vitabu (10,000+)",
-        "price": "TZS 0 — kwa kila mtu, milele",
-        "desc": "Masomo yote yamejengwa juu ya maktaba ya vitabu 10,000+ vya forex (Price Action, Liquidity, na strategies 17,568 zinazoendeshwa ndani ya app yetu). Unajifunza kanuni zinazotumika — si nadharia tupu.",
-        "lessons": [
-          {
-            "t": "1. Msingi wa Forex",
-            "d": "Pips, lots, leverage, currency pairs — msingi wote kwa Kiswahili rahisi."
-          },
-          {
-            "t": "2. Brokers & MT5",
-            "d": "Kuchagua broker, kufungua demo, kutumia MetaTrader 5."
-          },
-          {
-            "t": "3. Miallemo (Moving Averages)",
-            "d": "EMA 20/50/200 — jinsi ya kusoma mwelekeo."
-          },
-          {
-            "t": "4. Support & Resistance",
-            "d": "Levels, round numbers, na zones za bei."
-          },
-          {
-            "t": "5. Candles & Patterns",
-            "d": "Engulfing, Pin Bar, Rejection — trigger za kuaminika."
-          },
-          {
-            "t": "6. Price Action & Structure",
-            "d": "BOS, CHoCH, swing highs/lows — msoma wa chai halisi."
-          },
-          {
-            "t": "7. Liquidity & Smart Money",
-            "d": "Sweeps, order blocks, FVG — siri za wadau wakubwa."
-          },
-          {
-            "t": "8. Risk Management",
-            "d": "Kanuni ya 0.5%, R-multiple, journal — kwanza hifadhi mtaji."
-          }
-        ],
-        "note": "✓ Masomo mapya yanaongezwa kila wiki — kutoka vitabu halisi"
-      },
       "pro": {
         "title": "Mentorship ya Karibu (Pro)",
         "price": "Kuanzia $3/wiki (≈ TZS 7,500) — M-Pesa / TigoPesa / Airtel Money",
@@ -138,23 +98,6 @@
       }
     },
     "analysis": {
-      "free": {
-        "title": "Market Outlook — kila siku",
-        "price": "TZS 0",
-        "desc": "Uchambuzi wa siku: mwelekeo wa Gold/majors/crypto, sessions (Asia → London → NY), na news zenye athari — kwa Kiswahili rahisi.",
-        "posts": [
-          {
-            "date": "LEO",
-            "title": "Gold (XAUUSD): Bullish hadi 2405",
-            "body": "Bei juu ya EMA20/50 (H1). London sweep ya 2375 ilithibitisha demand. Tunatarajia continuation hadi round 2405; chini ya 2372 outlook inageuka neutral."
-          },
-          {
-            "date": "JANA",
-            "title": "EURUSD: Range 1.0800–1.0860",
-            "body": "Hakuna breakout — CPI ya EUR ilibana haiba. Range trading hadi news za USD; breakout wa 1.0860 ufungua 1.0900."
-          }
-        ]
-      },
       "pro": {
         "title": "Setups Kamili + Analysis Yako (Pro)",
         "price": "Ndani ya Pro ($3/wiki) — au pakua app (bure) kwa auto-signals",
@@ -232,16 +175,20 @@
       "mini_ana_d": "Outlook ya kila siku",
       "mini_sig": "Signals kamili (SL/TP)",
       "mini_sig_d": "APA • A+++ • GOLD COMBO",
+      "mini_journal": "Trade Journal",
+      "mini_journal_d": "Auto-follow 0.5% risk",
       "sec_mentor": "🎓 Mentorship",
       "sec_analysis": "📊 Analysis ya Soko",
       "see_all": "Angalia kalenda kamili ya wiki →",
       "book_why": "Kwa nini vitabu 10,000+? Kila somo la bure linatokana na kanuni za vitabu halisi vya forex vinavyoendeshwa ndani ya app yetu (engine ya strategies 17,568). Unajifunza kanuni zinazotumika — si nadharia tupu.",
       "h1_news": "📰 Habari za Soko (EAT)",
       "h1_mentorship": "🎓 Mentorship",
-      "sub_mentorship": "Njia mbili za kujifunza: bure milele kwa kila mtu — jengwa juu ya maktaba ya vitabu 10,000+ — na Pro kwa wanaotaka mwalimu wa karibu.",
+      "sub_mentorship": "Mentorship ya Karibu (Pro) — live sessions, mpango wa kibinafsi, na ukaguzi wa trades zako — kila siku. Malipo kwa simu.",
+      "h_mentor_pay": "Kujiunga au kuuliza",
       "h_lessons": "Masomo (Shule ya Vitabu)",
       "h1_analysis": "📊 Uchambuzi wa Soko",
       "h_posts": "Outlook ya karibuni",
+      "h_anasub": "Setups zenye Entry/SL/TP kamili — ukitaka auto-signals bure, pakua app.",
       "h1_tools": "🧰 Zana za Forex",
       "sub_tools": "Zote bure — zipo ndani ya app ya PipMaster.",
       "h1_download": "⬇ Pakua App",
@@ -286,7 +233,7 @@
       "title": "Learn forex, get daily market analysis, and trade with a plan — in Swahili & English.",
       "sub": "PipMaster gives you market news (EAT), mentorship built on 10,000+ forex books, and daily analysis — free. Want more? Go Pro.",
       "cta1": "⬇ DOWNLOAD APP (APK) — FREE",
-      "cta2": "START FREE MENTORSHIP →",
+      "cta2": "JOIN PRO →",
       "trust": [
         "5 signal engines (APA, UGAIGAI, 17,568 Books, A+++ , GOLD COMBO)",
         "Live data: Yahoo / Binance / OKX",
@@ -349,46 +296,6 @@
       ]
     },
     "mentorship": {
-      "free": {
-        "title": "Book School (10,000+)",
-        "price": "TZS 0 — for everyone, forever",
-        "desc": "Every lesson is built on a library of 10,000+ forex books (Price Action, Liquidity, and the 17,568 strategies running inside our app). You learn rules that are actually used — not just theory.",
-        "lessons": [
-          {
-            "t": "1. Forex Basics",
-            "d": "Pips, lots, leverage, currency pairs — all the fundamentals, made simple."
-          },
-          {
-            "t": "2. Brokers & MT5",
-            "d": "Choosing a broker, opening a demo account, using MetaTrader 5."
-          },
-          {
-            "t": "3. Moving Averages",
-            "d": "EMA 20/50/200 — how to read the trend."
-          },
-          {
-            "t": "4. Support & Resistance",
-            "d": "Levels, round numbers, and price zones."
-          },
-          {
-            "t": "5. Candles & Patterns",
-            "d": "Engulfing, Pin Bar, Rejection — reliable triggers."
-          },
-          {
-            "t": "6. Price Action & Structure",
-            "d": "BOS, CHoCH, swing highs/lows — reading the real market."
-          },
-          {
-            "t": "7. Liquidity & Smart Money",
-            "d": "Sweeps, order blocks, FVG — how the big players move."
-          },
-          {
-            "t": "8. Risk Management",
-            "d": "The 0.5% rule, R-multiples, journaling — protect capital first."
-          }
-        ],
-        "note": "✓ New lessons added weekly — from real books"
-      },
       "pro": {
         "title": "Personal Mentorship (Pro)",
         "price": "From $3/week (≈ TZS 7,500) — M-Pesa / TigoPesa / Airtel Money",
@@ -402,23 +309,6 @@
       }
     },
     "analysis": {
-      "free": {
-        "title": "Market Outlook — daily",
-        "price": "TZS 0",
-        "desc": "Daily analysis: Gold/majors/crypto direction, sessions (Asia → London → NY), and impact news — in simple language.",
-        "posts": [
-          {
-            "date": "TODAY",
-            "title": "Gold (XAUUSD): Bullish toward 2405",
-            "body": "Price above EMA20/50 (H1). The London sweep at 2375 confirmed demand. We expect continuation to the 2405 round level; below 2372 the outlook turns neutral."
-          },
-          {
-            "date": "YESTERDAY",
-            "title": "EURUSD: Range 1.0800–1.0860",
-            "body": "No breakout — EUR CPI capped momentum. Range trading until USD news; a break above 1.0860 opens 1.0900."
-          }
-        ]
-      },
       "pro": {
         "title": "Full Setups + Your Analysis (Pro)",
         "price": "Included in Pro ($3/week) — or get the app (free) for auto-signals",
@@ -496,16 +386,20 @@
       "mini_ana_d": "Daily outlook",
       "mini_sig": "Full signals (SL/TP)",
       "mini_sig_d": "APA • A+++ • GOLD COMBO",
+      "mini_journal": "Trade Journal",
+      "mini_journal_d": "Auto-follow 0.5% risk",
       "sec_mentor": "🎓 Mentorship",
       "sec_analysis": "📊 Market Analysis",
       "see_all": "See the full weekly calendar →",
       "book_why": "Why 10,000+ books? Every free lesson comes from real forex book rules running inside our app (the 17,568-strategy engine). You learn rules that are actually used — not just theory.",
       "h1_news": "📰 Market News (EAT)",
       "h1_mentorship": "🎓 Mentorship",
-      "sub_mentorship": "Two ways to learn: free forever for everyone — built on the 10,000+ book library — and Pro for those who want a close mentor.",
+      "sub_mentorship": "Personal Mentorship (Pro) — live sessions, a personal plan, and daily review of your trades. Pay by mobile money.",
+      "h_mentor_pay": "To join or ask",
       "h_lessons": "Lessons (Book School)",
       "h1_analysis": "📊 Market Analysis",
       "h_posts": "Recent outlooks",
+      "h_anasub": "Setups with full Entry/SL/TP — for free auto-signals, get the app.",
       "h1_tools": "🧰 Forex Tools",
       "sub_tools": "All free — available inside the PipMaster app.",
       "h1_download": "⬇ Download App",
