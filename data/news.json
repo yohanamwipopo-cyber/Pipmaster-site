@@ -1,0 +1,176 @@
+{
+ "updated": "2026-09-08 16:09 UTC",
+ "source": "ForexFactory",
+ "items": [
+  {
+   "cur": "GBP",
+   "impact": "normal",
+   "time": "16:15",
+   "date": "Tue 08 Sep",
+   "title": "Monetary Policy Report Hearings",
+   "fc": "—",
+   "prev": "—",
+   "ts": 1788873300000
+  },
+  {
+   "cur": "EUR",
+   "impact": "high",
+   "time": "15:15",
+   "date": "Thu 10 Sep",
+   "title": "Main Refinancing Rate",
+   "fc": "2.65%",
+   "prev": "2.40%",
+   "ts": 1789042500000
+  },
+  {
+   "cur": "EUR",
+   "impact": "high",
+   "time": "15:15",
+   "date": "Thu 10 Sep",
+   "title": "Monetary Policy Statement",
+   "fc": "—",
+   "prev": "—",
+   "ts": 1789042500000
+  },
+  {
+   "cur": "USD",
+   "impact": "high",
+   "time": "15:30",
+   "date": "Thu 10 Sep",
+   "title": "Core PPI m/m",
+   "fc": "0.3%",
+   "prev": "0.2%",
+   "ts": 1789043400000
+  },
+  {
+   "cur": "USD",
+   "impact": "high",
+   "time": "15:30",
+   "date": "Thu 10 Sep",
+   "title": "PPI m/m",
+   "fc": "0.4%",
+   "prev": "0.0%",
+   "ts": 1789043400000
+  },
+  {
+   "cur": "USD",
+   "impact": "normal",
+   "time": "15:30",
+   "date": "Thu 10 Sep",
+   "title": "Unemployment Claims",
+   "fc": "205K",
+   "prev": "206K",
+   "ts": 1789043400000
+  },
+  {
+   "cur": "EUR",
+   "impact": "high",
+   "time": "15:45",
+   "date": "Thu 10 Sep",
+   "title": "ECB Press Conference",
+   "fc": "—",
+   "prev": "—",
+   "ts": 1789044300000
+  },
+  {
+   "cur": "GBP",
+   "impact": "high",
+   "time": "09:00",
+   "date": "Fri 11 Sep",
+   "title": "GDP m/m",
+   "fc": "0.0%",
+   "prev": "0.3%",
+   "ts": 1789106400000
+  },
+  {
+   "cur": "CHF",
+   "impact": "normal",
+   "time": "12:15",
+   "date": "Fri 11 Sep",
+   "title": "SNB Chairman Schlegel Speaks",
+   "fc": "—",
+   "prev": "—",
+   "ts": 1789118100000
+  },
+  {
+   "cur": "USD",
+   "impact": "high",
+   "time": "15:30",
+   "date": "Fri 11 Sep",
+   "title": "Core CPI m/m",
+   "fc": "0.2%",
+   "prev": "0.2%",
+   "ts": 1789129800000
+  },
+  {
+   "cur": "USD",
+   "impact": "high",
+   "time": "15:30",
+   "date": "Fri 11 Sep",
+   "title": "Core CPI y/y",
+   "fc": "2.4%",
+   "prev": "2.5%",
+   "ts": 1789129800000
+  },
+  {
+   "cur": "USD",
+   "impact": "high",
+   "time": "15:30",
+   "date": "Fri 11 Sep",
+   "title": "CPI m/m",
+   "fc": "0.4%",
+   "prev": "0.1%",
+   "ts": 1789129800000
+  },
+  {
+   "cur": "USD",
+   "impact": "high",
+   "time": "15:30",
+   "date": "Fri 11 Sep",
+   "title": "CPI y/y",
+   "fc": "3.4%",
+   "prev": "3.4%",
+   "ts": 1789129800000
+  },
+  {
+   "cur": "EUR",
+   "impact": "normal",
+   "time": "17:00",
+   "date": "Fri 11 Sep",
+   "title": "ECB President Lagarde Speaks",
+   "fc": "—",
+   "prev": "—",
+   "ts": 1789135200000
+  },
+  {
+   "cur": "USD",
+   "impact": "normal",
+   "time": "17:00",
+   "date": "Fri 11 Sep",
+   "title": "Prelim UoM Consumer Sentiment",
+   "fc": "51.0",
+   "prev": "51.0",
+   "ts": 1789135200000
+  },
+  {
+   "cur": "USD",
+   "impact": "normal",
+   "time": "17:00",
+   "date": "Fri 11 Sep",
+   "title": "Prelim UoM Inflation Expectations",
+   "fc": "—",
+   "prev": "4.3%",
+   "ts": 1789135200000
+  },
+  {
+   "cur": "EUR",
+   "impact": "normal",
+   "time": "10:30",
+   "date": "Sat 12 Sep",
+   "title": "ECB President Lagarde Speaks",
+   "fc": "—",
+   "prev": "—",
+   "ts": 1789198200000
+  }
+ ]
+}
