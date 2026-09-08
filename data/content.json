@@ -68,6 +68,19 @@
       "media": "https://yohanamwipopo-cyber.github.io/Pipmaster-site/og.jpg",
       "t": "PipMaster — Master the Market. Master Your Pips.",
       "x": ""
+    },
+    {
+      "id": "c7",
+      "type": "update",
+      "inst": "XAUUSD",
+      "vis": "premium",
+      "status": "published",
+      "lang": "both",
+      "at": 1788899667084,
+      "t": "Setup ya Gold — uthibitisho wa M15 (PRO)",
+      "x": "Uchambuzi kamili: entry, SL, TP na sababu — kwa wanachama wa PRO.",
+      "t_en": "Gold setup — M15 confirmation (PRO)",
+      "x_en": "Full breakdown: entry, SL, TP and reasoning — for PRO members."
     }
   ],
   "meta": {
@@ -716,6 +729,26 @@
       "f_today": "leo",
       "f_day": "siku",
       "f_copy": "COPY",
+      "author": "Timu ya PipMaster",
+      "tlabels": {
+        "message": "UJUMBE",
+        "update": "UPDATE YA SOKO",
+        "analysis": "ANALYSIS",
+        "news": "HABARI",
+        "article": "MAKALA",
+        "education": "ELIMU",
+        "strategy": "MKAKATI",
+        "announce": "TANGAZO",
+        "app": "APP",
+        "prop": "PROP FIRM",
+        "broker": "BROKER",
+        "image": "PICHA",
+        "video": "VIDEO"
+      },
+      "f_more": "SOMA ZAIDI →",
+      "f_risklink": "KOKOTOA RISK →",
+      "f_lock": "MAUDHUI YA PRO",
+      "f_lockcta": "JIUNGE NA PRO →",
       "see_feed": "ONA FEED YOTE →",
       "h_edu": "Elimu",
       "edu_sub": "Jifunze hatua kwa hatua",
@@ -742,7 +775,8 @@
         "sig": "SIGNALS",
         "dl": "PAKUA",
         "jr": "JOURNAL",
-        "more": "ZAIDI"
+        "more": "ZAIDI",
+        "feed": "FEED"
       },
       "b_free": "FREE",
       "b_pro": "PAID",
@@ -1055,6 +1089,26 @@
       "f_today": "today",
       "f_day": "d",
       "f_copy": "COPY",
+      "author": "PipMaster Team",
+      "tlabels": {
+        "message": "MESSAGE",
+        "update": "MARKET UPDATE",
+        "analysis": "ANALYSIS",
+        "news": "NEWS",
+        "article": "ARTICLE",
+        "education": "EDUCATION",
+        "strategy": "STRATEGY",
+        "announce": "ANNOUNCEMENT",
+        "app": "APP UPDATE",
+        "prop": "PROP FIRM",
+        "broker": "BROKER",
+        "image": "IMAGE",
+        "video": "VIDEO"
+      },
+      "f_more": "READ MORE →",
+      "f_risklink": "CALCULATE RISK →",
+      "f_lock": "PRO CONTENT",
+      "f_lockcta": "JOIN PRO →",
       "see_feed": "VIEW FULL FEED →",
       "h_edu": "Education",
       "edu_sub": "Learn step by step",
@@ -1081,7 +1135,8 @@
         "sig": "SIGNALS",
         "dl": "DOWNLOAD",
         "jr": "JOURNAL",
-        "more": "MORE"
+        "more": "MORE",
+        "feed": "FEED"
       },
       "b_free": "FREE",
       "b_pro": "PRO",
