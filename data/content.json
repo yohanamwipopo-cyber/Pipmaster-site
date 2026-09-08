@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-08T17:29:34.020Z",
+    "updated": "2026-09-08T17:31:00.040Z",
     "by": "PipMaster Admin (en)"
   },
   "sw": {
@@ -1030,7 +1030,18 @@
       "doc_title": "PipMaster — Forex School, Analysis & Signals"
     },
     "gallery": {
-      "items": []
+      "items": [
+        {
+          "url": "",
+          "type": "",
+          "cap": ""
+        },
+        {
+          "url": "",
+          "type": "",
+          "cap": ""
+        }
+      ]
     }
   },
   "media": [
